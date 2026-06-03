@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -38,13 +38,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://until-dawn-2.wiki";
-
-  // 获取 SEO 翻译
-  const t = await getTranslations("seo.home");
+  const homeUrl = locale === "en" ? siteUrl : `${siteUrl}/${locale}`;
+  const title = "Until Dawn 2 Wiki - Release Date, Trailer & Choices";
+  const description =
+    "Until Dawn 2 Wiki covers the 2027 PS5 release, trailer, story, ghost hunters, island setting, characters, choices, gameplay, and survival updates.";
+  const imageUrl = `${siteUrl}/images/hero.webp`;
 
   return {
-    title: t("title"),
-    description: t("description"),
+    metadataBase: new URL(siteUrl),
+    title,
+    description,
     robots: {
       index: true,
       follow: true,
@@ -59,13 +62,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       type: "website",
       locale: locale,
-      url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
+      url: homeUrl,
       siteName: "Until Dawn 2 Wiki",
-      title: t("ogTitle"),
-      description: t("ogDescription"),
+      title,
+      description,
       images: [
         {
-          url: `${siteUrl}/images/hero.webp`,
+          url: imageUrl,
           width: 1088,
           height: 612,
           alt: "Until Dawn 2 key art",
@@ -74,10 +77,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: t("twitterTitle"),
-      description: t("twitterDescription"),
-      images: [`${siteUrl}/images/hero.webp`],
-      creator: "@lucidblocks",
+      title,
+      description,
+      images: [imageUrl],
+      creator: "@PlayStation",
     },
     icons: {
       icon: [

@@ -88,13 +88,18 @@ export default function HomePageClient({
     process.env.NEXT_PUBLIC_SITE_URL || "https://until-dawn-2.wiki";
   const officialGameUrl = "https://www.playstation.com/en-us/games/until-dawn-2/";
   const officialWishlistUrl = "https://www.playstation.com/en-us/games/until-dawn-2/#buynow";
+  const officialBlogUrl =
+    "https://blog.playstation.com/2026/06/02/until-dawn-2-is-coming-to-ps5-in-2027/";
+  const officialTrailerUrl = "https://www.youtube.com/watch?v=QpVZ9OvRLZI";
+  const playStationXUrl = "https://x.com/PlayStation";
+  const firespriteXUrl = "https://x.com/FirespriteGames";
+  const communityRedditUrl = "https://www.reddit.com/r/untildawn/";
   const heroContent = {
-    badge: "Cinematic Choice-Based Horror",
-    title: "Until Dawn 2 Wiki",
-    description:
-      "Track the PS5 reveal, 2027 release window, ghost-hunter story setup, trailer, and every major choice-driven update for Until Dawn 2.",
-    primaryCta: "Get Release Updates",
-    secondaryCta: "Wishlist on PlayStation",
+    badge: t.hero.badge,
+    title: t.hero.title,
+    description: t.hero.description,
+    primaryCta: t.hero.getFreeCodesCTA,
+    secondaryCta: t.hero.playOnSteamCTA,
   };
 
   // Structured data
@@ -144,8 +149,10 @@ export default function HomePageClient({
         },
         sameAs: [
           officialGameUrl,
-          "https://blog.playstation.com/2026/06/02/until-dawn-2-is-coming-to-ps5-in-2027/",
-          "https://www.youtube.com/watch?v=QpVZ9OvRLZI",
+          officialBlogUrl,
+          officialTrailerUrl,
+          playStationXUrl,
+          firespriteXUrl,
         ],
       },
       {
@@ -175,9 +182,9 @@ export default function HomePageClient({
         description:
           "Official PlayStation reveal trailer for Until Dawn 2, introducing the ghost-hunter cast, island setting, and choice-driven survival premise.",
         uploadDate: "2026-06-02",
-        thumbnailUrl: `${siteUrl}/images/hero.webp`,
+        thumbnailUrl: [`${siteUrl}/images/hero.webp`],
         embedUrl: "https://www.youtube.com/embed/QpVZ9OvRLZI",
-        url: "https://www.youtube.com/watch?v=QpVZ9OvRLZI",
+        url: officialTrailerUrl,
       },
     ],
   };
@@ -1340,21 +1347,21 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href={officialBlogUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    <MessageCircle className="w-4 h-4" /> Discord{" "}
+                    <MessageCircle className="w-4 h-4" /> Official Blog{" "}
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href={officialGameUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    Steam Community <ExternalLink className="w-3 h-3" />
+                    Official Site <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               </div>
@@ -1415,7 +1422,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href={playStationXUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1425,7 +1432,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
+                    href={firespriteXUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1435,7 +1442,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/3495730"
+                    href={communityRedditUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1445,7 +1452,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href={officialTrailerUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

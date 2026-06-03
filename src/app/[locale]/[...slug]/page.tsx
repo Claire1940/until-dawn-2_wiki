@@ -219,6 +219,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale, slug } = await params
   const contentType = slug[0]
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://until-dawn-2.wiki'
+  const imageUrl = `${siteUrl}/images/hero.webp`
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -239,22 +240,38 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     }
 
-    // 列表页元数据
-    const t = await getTranslations(`pages.${contentType}`)
-
     try {
-      const title = t('metaTitle')
-      const description = t('metaDescription')
       const path = `/${contentType}`
+      const label = contentType.charAt(0).toUpperCase() + contentType.slice(1)
+      const title = `Until Dawn 2 ${label} - Until Dawn 2 Wiki`
+      const description = `Browse ${label.toLowerCase()} coverage for Until Dawn 2, including official story details, trailer analysis, release updates, and PS5 survival-horror guides.`
+      const canonicalUrl =
+        locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`
 
       return {
         title,
         description,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
         openGraph: {
+          type: 'website',
+          siteName: 'Until Dawn 2 Wiki',
           title,
           description,
-          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          url: canonicalUrl,
+          images: [
+            {
+              url: imageUrl,
+              width: 1088,
+              height: 612,
+              alt: 'Until Dawn 2 key art',
+            },
+          ],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title,
+          description,
+          images: [imageUrl],
         },
         robots: {
           index: true,
@@ -269,26 +286,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         },
       }
     } catch {
-      // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Until Dawn 2 Wiki`
-      const path = `/${contentType}`
-
-      return {
-        title: defaultTitle,
-        description: `Browse all ${contentType} content for Until Dawn 2 Wiki`,
-        alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
-        robots: {
-          index: true,
-          follow: true,
-          googleBot: {
-            index: true,
-            follow: true,
-            'max-video-preview': -1,
-            'max-image-preview': 'large',
-            'max-snippet': -1,
-          },
-        },
-      }
+      return { title: 'Not Found' }
     }
   } else {
     // 详情页元数据（从 MDX import 获取）
@@ -304,16 +302,27 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       )
 
       const fullPath = `/${slug.join('/')}`
+      const canonicalUrl =
+        locale === 'en' ? `${siteUrl}${fullPath}` : `${siteUrl}/${locale}${fullPath}`
+      const title = `${metadata.title} - Until Dawn 2 Wiki`
 
       return {
-        title: `${metadata.title} - Until Dawn 2 Wiki`,
+        title,
         description: metadata.description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
-          title: metadata.title,
+          type: 'article',
+          siteName: 'Until Dawn 2 Wiki',
+          title,
           description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
-          url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+          images: [metadata.image || imageUrl],
+          url: canonicalUrl,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title,
+          description: metadata.description,
+          images: [metadata.image || imageUrl],
         },
         robots: {
           index: true,
@@ -339,16 +348,27 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           )
 
           const fullPath = `/${slug.join('/')}`
+          const canonicalUrl =
+            locale === 'en' ? `${siteUrl}${fullPath}` : `${siteUrl}/${locale}${fullPath}`
+          const title = `${metadata.title} - Until Dawn 2 Wiki`
 
           return {
-            title: `${metadata.title} - Until Dawn 2 Wiki`,
+            title,
             description: metadata.description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
-              title: metadata.title,
+              type: 'article',
+              siteName: 'Until Dawn 2 Wiki',
+              title,
               description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
-              url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+              images: [metadata.image || imageUrl],
+              url: canonicalUrl,
+            },
+            twitter: {
+              card: 'summary_large_image',
+              title,
+              description: metadata.description,
+              images: [metadata.image || imageUrl],
             },
             robots: {
               index: true,

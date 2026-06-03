@@ -14,6 +14,8 @@ export function ListStructuredData({ contentType, locale, items }: ListStructure
 	const structuredData = {
 		'@context': 'https://schema.org',
 		'@type': 'ItemList',
+		name: `Until Dawn 2 ${contentType.charAt(0).toUpperCase() + contentType.slice(1)}`,
+		url: listUrl,
 		itemListElement: items.map((item, index) => ({
 			'@type': 'ListItem',
 			position: index + 1,

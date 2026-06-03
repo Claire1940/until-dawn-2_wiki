@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Cinematic Choice-Based Horror",
+    "title": "Until Dawn 2 Wiki",
+    "description": "Until Dawn 2 is a PS5 cinematic horror sequel where ghost hunters chase a viral hit on a haunted island. Track the release date, trailer, story, characters, choices, and survival updates.",
+    "getFreeCodesCTA": "Official Until Dawn 2 Site",
+    "playOnSteamCTA": "Wishlist Until Dawn 2 on PS5",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "2027",
+        "label": "Release Window"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "PS5",
+        "label": "Platform"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "Firesprite",
+        "label": "Developer"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Wishlist",
+        "label": "Store Status"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Stay on Top of Until Dawn 2",
+    "description": "Watch the official reveal trailer, follow PlayStation updates, and wishlist Until Dawn 2 on PS5 while Firesprite shares more story and gameplay details.",
+    "joinCommunity": "Watch Until Dawn 2 Trailer",
+    "joinGame": "Wishlist Until Dawn 2 on PS5"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Until Dawn 2 Wiki",
+    "description": "Your fan-made hub for Until Dawn 2 release news, trailers, story setup, character details, and choice-driven survival coverage.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "PlayStation on X",
+    "twitter": "Firesprite on X",
+    "steamCommunity": "r/UntilDawn",
+    "steamStore": "Official Trailer",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Until Dawn 2 Wiki. Unofficial and not affiliated with Sony Interactive Entertainment or Firesprite.",
+    "disclaimer": "Until Dawn 2 Wiki is an unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

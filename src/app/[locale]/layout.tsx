@@ -37,7 +37,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://until-dawn-2.wiki";
 
   // 获取 SEO 翻译
   const t = await getTranslations("seo.home");
@@ -60,15 +60,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: locale,
       url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
-      siteName: "Lucid Blocks Wiki",
+      siteName: "Until Dawn 2 Wiki",
       title: t("ogTitle"),
       description: t("ogDescription"),
       images: [
         {
           url: `${siteUrl}/images/hero.webp`,
-          width: 1920,
-          height: 1080,
-          alt: "Lucid Blocks - Surreal Voxel Sandbox",
+          width: 1088,
+          height: 612,
+          alt: "Until Dawn 2 key art",
         },
       ],
     },

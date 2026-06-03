@@ -1,12 +1,15 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Until Dawn 2 Wiki - Release Date, Trailer & Choices",
+  "short_name": "Until Dawn 2",
+  "description": "Until Dawn 2 Wiki tracks the PS5 release window, trailer, story, characters, choices, and wishlist updates for Firesprite's cinematic horror sequel.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["games", "entertainment", "news"],
+  "theme_color": "#e43b46",
+  "background_color": "#08080a",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -34,6 +37,14 @@
       "src": "/apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/hero.webp",
+      "sizes": "1088x612",
+      "type": "image/webp",
+      "form_factor": "wide"
     }
   ]
 }

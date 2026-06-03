@@ -85,7 +85,17 @@ export default function HomePageClient({
 }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://until-dawn-2.wiki";
+  const officialGameUrl = "https://www.playstation.com/en-us/games/until-dawn-2/";
+  const officialWishlistUrl = "https://www.playstation.com/en-us/games/until-dawn-2/#buynow";
+  const heroContent = {
+    badge: "Cinematic Choice-Based Horror",
+    title: "Until Dawn 2 Wiki",
+    description:
+      "Track the PS5 reveal, 2027 release window, ghost-hunter story setup, trailer, and every major choice-driven update for Until Dawn 2.",
+    primaryCta: "Get Release Updates",
+    secondaryCta: "Wishlist on PlayStation",
+  };
 
   // Structured data
   const structuredData = {
@@ -95,15 +105,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "Until Dawn 2 Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Until Dawn 2 Wiki covers the 2027 PS5 release window, trailer, story, characters, choices, and wishlist updates.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
-          width: 1920,
-          height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          width: 1088,
+          height: 612,
+          caption: "Until Dawn 2 key art",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +124,11 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Until Dawn 2 Wiki",
+        alternateName: "Until Dawn 2",
         url: siteUrl,
         description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Fan-made Until Dawn 2 wiki focused on official release details, trailer coverage, story setup, and survival-choice updates.",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -128,43 +138,46 @@ export default function HomePageClient({
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
-          width: 1920,
-          height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          width: 1088,
+          height: 612,
+          caption: "Until Dawn 2 Wiki hero image",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          officialGameUrl,
+          "https://blog.playstation.com/2026/06/02/until-dawn-2-is-coming-to-ps5-in-2027/",
+          "https://www.youtube.com/watch?v=QpVZ9OvRLZI",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
-        gamePlatform: ["PC", "Steam"],
+        name: "Until Dawn 2",
+        gamePlatform: ["PS5"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Horror", "Narrative Adventure", "Interactive Drama"],
+        publisher: "Sony Interactive Entertainment",
+        author: {
+          "@type": "Organization",
+          name: "Firesprite",
+        },
         numberOfPlayers: {
           minValue: 1,
           maxValue: 1,
         },
         offers: {
           "@type": "Offer",
-          priceCurrency: "USD",
-          availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          availability: "https://schema.org/PreOrder",
+          url: officialWishlistUrl,
         },
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "Until Dawn 2 - Announce Trailer | PS5 Games",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "Official PlayStation reveal trailer for Until Dawn 2, introducing the ghost-hunter cast, island setting, and choice-driven survival premise.",
+        uploadDate: "2026-06-02",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/QpVZ9OvRLZI",
+        url: "https://www.youtube.com/watch?v=QpVZ9OvRLZI",
       },
     ],
   };
@@ -221,40 +234,42 @@ export default function HomePageClient({
             >
               <Sparkles className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-xs md:text-sm font-medium">
-                {t.hero.badge}
+                {heroContent.badge}
               </span>
             </div>
 
             {/* Title */}
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 leading-[1.05]">
-              {t.hero.title}
+              {heroContent.title}
             </h1>
 
             {/* Description */}
             <p className="mx-auto mb-8 max-w-2xl text-base leading-7 text-muted-foreground sm:text-lg md:mb-10 md:max-w-3xl md:text-2xl">
-              {t.hero.description}
+              {heroContent.description}
             </p>
 
             {/* CTA Buttons */}
             <div className="mb-10 flex flex-col justify-center gap-3 sm:flex-row md:mb-12 md:gap-4">
-              <button
-                onClick={() => scrollToSection("beginner-guide")}
+              <a
+                href={officialGameUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
                            bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)]
                            text-white rounded-lg font-semibold text-base md:text-lg transition-colors"
               >
                 <BookOpen className="w-5 h-5" />
-                {t.hero.getFreeCodesCTA}
-              </button>
+                {heroContent.primaryCta}
+              </a>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href={officialWishlistUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
                            border border-border hover:bg-white/10 rounded-lg
                            font-semibold text-base md:text-lg transition-colors"
               >
-                {t.hero.playOnSteamCTA}
+                {heroContent.secondaryCta}
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -269,11 +284,11 @@ export default function HomePageClient({
 
       {/* Video Section */}
       <section className="px-4 py-10 md:py-12">
-        <div className="scroll-reveal container mx-auto max-w-5xl">
+        <div className="scroll-reveal container mx-auto max-w-6xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId="QpVZ9OvRLZI"
+              title="Until Dawn 2 - Announce Trailer | PS5 Games"
             />
           </div>
         </div>
@@ -779,7 +794,7 @@ export default function HomePageClient({
                 >
                   <div className="mb-3">
                     <span
-                      className={`text-xs px-2 py-1 rounded-full border ${["Hostile Enemy", "Major Threat", "Elite Threat"].includes(c.role) ? "bg-red-500/10 border-red-500/30 text-red-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
+                      className={`text-xs px-2 py-1 rounded-full border ${["Hostile Enemy", "Major Threat", "Elite Threat"].includes(c.role) ? "bg-[hsl(var(--nav-theme)/0.12)] border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))]" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
                     >
                       {c.role}
                     </span>
@@ -969,7 +984,7 @@ export default function HomePageClient({
                   <div className="flex items-center gap-2 mb-3">
                     <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                     <span
-                      className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-red-500/10 border-red-500/30 text-red-400" : p.priority === "Very High" ? "bg-orange-500/10 border-orange-500/30 text-orange-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
+                      className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-[hsl(var(--nav-theme)/0.12)] border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))]" : p.priority === "Very High" ? "bg-orange-500/10 border-orange-500/30 text-orange-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
                     >
                       {p.priority}
                     </span>

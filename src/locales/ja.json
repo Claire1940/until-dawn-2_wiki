@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "trailer": "Trailer",
+    "cast": "Cast",
+    "story": "Story",
+    "guide": "Guide"
+  }
+}

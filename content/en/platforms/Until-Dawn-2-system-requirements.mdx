@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Cpu } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Until Dawn 2 System Requirements: PC Setup Guide",
+  description: "Check the official Until Dawn 2 system requirements for PC. Learn about minimum and recommended specs, GPU benchmarks, and optimization tips for 2027.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Until+Dawn+2+System+Requirements",
+  date: "2026-06-03",
+  author: "Until Dawn 2 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Until Dawn 2 system requirements**: Expect high-end demands due to Unreal Engine 5 and a **2027 release window**.
+- **Minimum GPU**: Mid-range cards like the **RTX 3060** or **RX 6700** are the baseline for 1080p.
+- **Storage Requirement**: An **NVMe SSD** is mandatory to handle seamless cinematic transitions and high-res textures.
+- **Key Feature**: The game utilizes **Lumen and Nanite**, making Ray Tracing performance a critical factor for visual fidelity.
+- **Top Recommendation**: For 4K 60FPS, an **RTX 4080 or better** will likely be necessary given the cinematic nature of the sequel.
+</Callout>
+
+<Section icon={Monitor} title="Hardware Overview and Reveal Analysis">
+
+The announcement of the sequel at SGF 2026 has sent shockwaves through the horror community. With the return of iconic figures like Peter Stormare and the addition of Neil Newbon, the technical ambitions for this title are higher than ever. Understanding the **Until Dawn 2 system requirements** is essential for players who want to experience the "everyone can live, everyone can die" mechanic without performance stutters ruining the tension.
+
+**Video Highlights:**
+- Official debut at Summer Game Fest 2026 confirms a high-fidelity cinematic experience.
+- Returning cast members and new faces like Neil Newbon suggest complex motion capture.
+- The 2027 release window points toward a game built exclusively for current-gen PC and console hardware.
+- Visual cues in the trailer suggest advanced lighting and environmental effects.
+
+<YouTubeEmbed videoId="-zdJRiE-Lik" title="Until Dawn 2 Debut Trailer SGF 2026 - Easy Allies Reactions" />
+
+<Callout type="tip" title="Developer Insight">
+Based on the trailer's visual density, the game appears to be pushing the limits of modern rendering. Ensure your PC has adequate cooling, as cinematic horror games often push GPUs to their thermal limits during long cutscenes.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Minimum and Recommended Specs">
+
+To provide a clear picture of what you need, we have categorized the hardware requirements into three distinct tiers. Since the game is slated for a 2027 launch, the baseline hardware has shifted significantly compared to titles released earlier in the decade. The **Until Dawn 2 system requirements** reflect a shift toward high-speed storage and multi-core processing.
+
+| Component | Minimum (1080p/30FPS) | Recommended (1080p/60FPS) |
+| :--- | :--- | :--- |
+| **OS** | Windows 11 (64-bit) | Windows 11 (64-bit) |
+| **Processor** | Intel i5-12400 / Ryzen 5 5600 | Intel i7-13700K / Ryzen 7 7700X |
+| **Memory** | 16 GB RAM | 32 GB RAM |
+| **Graphics** | RTX 3060 (12GB) / RX 6700 | RTX 4070 / RX 7800 XT |
+| **DirectX** | Version 12 | Version 12 |
+| **Storage** | 100 GB NVMe SSD | 100 GB NVMe Gen4 SSD |
+
+<Callout type="warning" title="VRAM Warning">
+Unreal Engine 5 titles are notorious for high VRAM usage. Cards with only 8GB of VRAM may experience texture popping or stuttering at higher settings. Aim for at least 12GB for a smooth experience.
+</Callout>
+
+For enthusiasts looking to push the game to its absolute limits, the Ultra 4K requirements are even more demanding.
+
+| Feature | Ultra 4K Specification |
+| :--- | :--- |
+| **Target Resolution** | 3840 x 2160 (4K) |
+| **Target Frame Rate** | 60+ FPS |
+| **Graphics Card** | RTX 4080 Super / RX 7900 XTX |
+| **Upscaling Tech** | DLSS 3.5 / FSR 3.0 Required |
+| **Ray Tracing** | Ultra / Path Tracing Enabled |
+
+</Section>
+
+<Section icon={Target} title="PC Optimization and Setup Steps">
+
+Preparing your rig for a high-stakes horror game involves more than just meeting the raw numbers. You need to ensure your software environment is optimized to prevent crashes during critical Quick Time Events (QTEs).
+
+<Steps>
+  <Step num="1" title="Update Drivers and OS">
+    Always ensure you are running the latest "Game Ready" drivers from NVIDIA or AMD. For a 2027 title like this, Windows 11 is highly recommended due to its superior handling of DirectStorage and HDR.
+  </Step>
+  <Step num="2" title="Enable Resize BAR">
+    Go into your BIOS and ensure Resize BAR (or Smart Access Memory for AMD) is enabled. This allows the CPU to access the entire GPU frame buffer, which is vital for the large assets used in cinematic games.
+  </Step>
+  <Step num="3" title="SSD Optimization">
+    Install the game on your fastest NVMe drive. Avoid using external HDDs or even SATA SSDs, as the sequel likely uses high-speed streaming to transition between character perspectives without loading screens.
+  </Step>
+  <Step num="4" title="Configure Upscaling">
+    Given the heavy use of Ray Tracing, set your DLSS or FSR to "Quality" or "Balanced" mode. This will provide a significant FPS boost while maintaining the filmic look intended by the developers.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Performance Tip">
+If you encounter micro-stutters, try disabling background recording software like Windows Game Bar or ShadowPlay, as these can conflict with the game's high CPU demands.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hardware Comparison: Tiered Performance">
+
+Not every player has a top-of-the-line rig. We have analyzed how different hardware tiers will likely handle the game's demanding engine.
+
+<CardGrid cols={3}>
+  <Card title="The Budget Build">
+    - **1080p Low/Med Settings**
+    - Target: 30-45 FPS
+    - Focus: Texture quality over lighting
+    - *Requires FSR/DLSS Performance*
+  </Card>
+  <Card title="The Mid-Range Sweet Spot">
+    - **1440p High Settings**
+    - Target: 60 FPS
+    - Focus: Balanced Ray Tracing
+    - *Best with RTX 4070 tier cards*
+  </Card>
+  <Card title="The Enthusiast Rig">
+    - **4K Ultra Settings**
+    - Target: 60+ FPS
+    - Focus: Path Tracing & Max Fidelity
+    - *Frame Generation is essential here*
+  </Card>
+</CardGrid>
+
+To further help you decide if an upgrade is necessary, consider the following technical features supported by the game:
+
+| Feature | Support Status | Benefit |
+| :--- | :--- | :--- |
+| **Ray Tracing** | Full Support | Realistic shadows and reflections in dark corridors |
+| **DirectStorage** | Supported | Near-instant loading and character swaps |
+| **HDR10** | Supported | Better contrast in the game's many dark scenes |
+| **DualSense Features** | PC Compatible | Haptic feedback for heartbeats and tension |
+
+<Callout type="info" title="Controller Recommendation">
+While mouse and keyboard are supported, playing with a controller (especially a DualSense) is recommended for the most immersive "cinematic" experience.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Pre-Launch Checklist for 2027">
+
+As we approach the 2027 release date, use this checklist to ensure your gaming environment is ready for the horror.
+
+<Checklist
+  id="launch-prep"
+  title="Final Readiness Checklist:"
+  items={[
+    "Verify at least 100GB of free space on an NVMe SSD",
+    "Upgrade RAM to 32GB if currently on 16GB",
+    "Check monitor for HDR support to maximize atmosphere",
+    "Clean PC internals to prevent thermal throttling",
+    "Review the latest Until Dawn 2 system requirements for any day-one updates"
+  ]}
+/>
+
+<Callout type="warning" title="Anti-Virus Conflict">
+Some aggressive anti-virus software may flag the game's executable. Remember to add the game folder to your "Exclusions" list to prevent performance drops or launch failures.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What are the minimum Until Dawn 2 system requirements for a laptop?",
+    answer: "Laptop users should aim for at least an RTX 4060 Mobile or RX 7600S. Due to thermal constraints, mobile GPUs often perform 10-15% slower than their desktop counterparts, so meeting the 'Recommended' desktop spec is safer."
+  },
+  {
+    question: "Does Until Dawn 2 require an internet connection to play?",
+    answer: "While it is primarily a single-player game, an internet connection is usually required for the initial activation and for downloading day-one patches that optimize performance."
+  },
+  {
+    question: "Can I run the game on a Steam Deck or handheld PC?",
+    answer: "Running the game on handhelds like the Steam Deck or ROG Ally will be challenging. You will likely need to use 'Low' settings and aggressive upscaling (FSR Ultra Performance) to achieve a playable 30 FPS."
+  },
+  {
+    question: "Will the game support older versions of Windows like Windows 10?",
+    answer: "Most 2027 releases are expected to phase out Windows 10 support in favor of Windows 11's advanced API features. It is highly recommended to upgrade to ensure full compatibility with DirectStorage."
+  }
+]} />
+
+<Callout type="success" title="Final Note">
+The technical leap from the first game to this sequel is massive. Investing in a modern GPU and a fast SSD will be the difference between a cinematic masterpiece and a frustrating experience.
+</Callout>
+
+</Section>

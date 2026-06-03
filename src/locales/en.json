@@ -10,7 +10,14 @@
       "twitterDescription": "Until Dawn 2 Wiki tracks the PS5 release window, trailer, characters, story setup, and survival choices."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "trailer": "Trailer",
+    "cast": "Cast",
+    "story": "Story",
+    "guide": "Guide"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -458,125 +465,125 @@
     "disclaimer": "Until Dawn 2 Wiki is an unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Until Dawn 2 Guides",
-      "description": "Survival-focused Until Dawn 2 guides covering choices, relationships, route planning, and spoiler-light preparation.",
-      "metaTitle": "Until Dawn 2 Guides - Survival, Choices & Route Planning",
-      "metaDescription": "Browse Until Dawn 2 guides covering survival decisions, relationship management, story routes, and spoiler-light preparation for the PS5 sequel.",
-      "categoryLabel": "SURVIVAL GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "These pages collect spoiler-light guidance for approaching Until Dawn 2, from first-run survival habits to route planning and replay strategy.",
+    "release": {
+      "title": "Until Dawn 2 Release",
+      "description": "Track the Until Dawn 2 release window, announcement status, sequel confirmation, and the official timeline around its 2027 launch plans.",
+      "metaTitle": "Until Dawn 2 Release - Date, Confirmation & Launch Window",
+      "metaDescription": "Follow Until Dawn 2 release coverage with the confirmed 2027 window, sequel status, development updates, and the official launch timeline.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is Release?",
+      "whatIsDescription": "This category focuses on Until Dawn 2 release coverage: the announced 2027 window, sequel confirmation, development status, and timing-related updates from official sources.",
+      "why": "Why read release coverage?",
+      "whySteps": {
+        "step1Title": "Confirm the timeline",
+        "step1Description": "See the currently announced launch window and how official messaging around release timing evolves.",
+        "step2Title": "Track sequel status",
+        "step2Description": "Follow confirmation, development progress, and whether platform plans or launch expectations change.",
+        "step3Title": "Prepare for new updates",
+        "step3Description": "Keep a clean record of launch-related announcements without mixing them with story or trailer analysis."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Until Dawn 2 Release Articles"
+    },
+    "platforms": {
+      "title": "Until Dawn 2 Platforms",
+      "description": "Browse Until Dawn 2 platform coverage for PS5, PC, Steam, Xbox, PS4, Switch 2, and system-requirement questions tied to the sequel.",
+      "metaTitle": "Until Dawn 2 Platforms - PS5, PC, Steam & More",
+      "metaDescription": "Read Until Dawn 2 platform coverage for PS5 and every major port question, including PC, Steam, Xbox, PS4, Switch 2, and system requirements.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What are Platforms?",
+      "whatIsDescription": "These pages track where Until Dawn 2 is officially announced, which systems are still unconfirmed, and how store availability differs by platform question.",
+      "why": "Why follow platform pages?",
+      "whySteps": {
+        "step1Title": "Check official support",
+        "step1Description": "Separate confirmed platforms from wishlist speculation and keep the current PS5 status clear.",
+        "step2Title": "Track port questions",
+        "step2Description": "Follow recurring PC, Steam, Xbox, PS4, and Switch 2 questions in one category instead of scattered articles.",
+        "step3Title": "Plan your setup",
+        "step3Description": "Use platform pages to watch for store updates, hardware details, and future compatibility notes."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Until Dawn 2 Platform Articles"
+    },
+    "trailer": {
+      "title": "Until Dawn 2 Trailer",
+      "description": "Watch and analyze the Until Dawn 2 trailer, reveal beats, State of Play coverage, teaser clips, and the first official gameplay signals.",
+      "metaTitle": "Until Dawn 2 Trailer - Reveal, Teaser & State of Play",
+      "metaDescription": "Explore Until Dawn 2 trailer coverage with official reveal details, State of Play footage, teaser analysis, and early gameplay takeaways.",
+      "categoryLabel": "TRAILER",
+      "whatIs": "What is Trailer?",
+      "whatIsDescription": "This category collects official Until Dawn 2 video reveals, announcement footage, and article coverage focused on what the trailer confirms about tone, cast, and gameplay.",
+      "why": "Why read trailer coverage?",
+      "whySteps": {
+        "step1Title": "See what is confirmed",
+        "step1Description": "Use trailer pages to separate official reveals from rumor-heavy discussion and fan theories.",
+        "step2Title": "Catch visual details",
+        "step2Description": "Review character shots, island imagery, and gameplay hints that are easy to miss in a first watch.",
+        "step3Title": "Follow each reveal beat",
+        "step3Description": "Keep the reveal trailer, teaser clips, and announcement events organized in one navigation path."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Until Dawn 2 Trailer Articles"
+    },
+    "cast": {
+      "title": "Until Dawn 2 Cast",
+      "description": "Meet the Until Dawn 2 cast through character, actor, and crew coverage centered on the new ensemble, Dr. Hill, and confirmed performance details.",
+      "metaTitle": "Until Dawn 2 Cast - Characters, Actors & Crew",
+      "metaDescription": "Browse Until Dawn 2 cast coverage with character guides, actor pages, Dr. Hill updates, and the confirmed ensemble behind the sequel.",
+      "categoryLabel": "CAST",
+      "whatIs": "What is Cast?",
+      "whatIsDescription": "Cast pages focus on the people shaping Until Dawn 2, including confirmed characters, actors, returning roles, and the broader ensemble around the Dead True crew.",
+      "why": "Why follow cast pages?",
+      "whySteps": {
+        "step1Title": "Meet the ensemble",
+        "step1Description": "Keep track of who is in the new story and how each revealed role fits the sequel’s setup.",
+        "step2Title": "Follow actor details",
+        "step2Description": "Read focused pages on performers and returning figures without mixing them into platform or release articles.",
+        "step3Title": "Understand group dynamics",
+        "step3Description": "Use cast coverage to connect character reveals to the relationship-driven structure of the story."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Until Dawn 2 Cast Articles"
+    },
+    "story": {
+      "title": "Until Dawn 2 Story",
+      "description": "Explore Until Dawn 2 story coverage around the island setting, supernatural threat, returning themes, endings, and choice-driven horror premise.",
+      "metaTitle": "Until Dawn 2 Story - Setting, Choices & Horror Premise",
+      "metaDescription": "Read Until Dawn 2 story coverage featuring the island setting, supernatural danger, endings, and the choice-driven survival setup behind the sequel.",
+      "categoryLabel": "STORY",
+      "whatIs": "What is Story?",
+      "whatIsDescription": "Story pages focus on the official premise, island backdrop, supernatural elements, character stakes, and the branching narrative ideas that define Until Dawn 2.",
+      "why": "Why read story coverage?",
+      "whySteps": {
+        "step1Title": "Understand the premise",
+        "step1Description": "Get the core setup of the island, the crew, and the horror threat before diving into deeper article threads.",
+        "step2Title": "Track choice-driven themes",
+        "step2Description": "Follow how endings, relationships, and survival paths connect to the sequel’s narrative structure.",
+        "step3Title": "Keep lore organized",
+        "step3Description": "Use one category for story, monsters, endings, and setting details instead of fragmenting them across unrelated sections."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Until Dawn 2 Story Articles"
+    },
+    "guide": {
+      "title": "Until Dawn 2 Guide",
+      "description": "Find Until Dawn 2 guide coverage for walkthrough planning, collectibles, best-ending routes, survival choices, and first-run preparation.",
+      "metaTitle": "Until Dawn 2 Guide - Walkthrough, Endings & Survival Tips",
+      "metaDescription": "Browse Until Dawn 2 guide coverage with walkthrough help, collectible routes, best-ending planning, and spoiler-aware survival advice.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is Guide?",
+      "whatIsDescription": "Guide pages are practical articles for playing Until Dawn 2, covering walkthrough priorities, survival decisions, collectible paths, and replay planning.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn the core structure",
-        "step1Description": "Understand how choices, panic moments, and relationships can shift the story",
-        "step2Title": "Prepare your first run",
-        "step2Description": "Start with a cleaner understanding of the game’s survival-horror flow",
-        "step3Title": "Plan replays",
-        "step3Description": "Track alternate survival routes and different emotional outcomes"
+        "step1Title": "Prepare your first run",
+        "step1Description": "Start with spoiler-aware advice on choices, pacing, and what to pay attention to during tense scenes.",
+        "step2Title": "Plan better outcomes",
+        "step2Description": "Use guide articles to compare survival routes, best-ending goals, and collectible priorities.",
+        "step3Title": "Replay with intent",
+        "step3Description": "Keep walkthrough, choices, and ending-focused help together when you want to explore alternate branches."
       },
       "featured": "Featured & Essential",
-      "all": "All Until Dawn 2 Guides"
-    },
-    "crafting": {
-      "title": "Until Dawn 2 Story and Choices",
-      "description": "Story-focused Until Dawn 2 coverage centered on routes, branching scenes, consequences, and the Butterfly Effect.",
-      "metaTitle": "Until Dawn 2 Story and Choices - Routes & Consequences",
-      "metaDescription": "Explore Until Dawn 2 story coverage, branching routes, character consequences, and the Butterfly Effect structure behind the PS5 sequel.",
-      "categoryLabel": "STORY COVERAGE",
-      "whatIs": "What is Story and Choices?",
-      "whatIsDescription": "This section focuses on story setup, branching scenes, relationship tension, and the consequences that shape an Until Dawn 2 run.",
-      "why": "Why follow story coverage?",
-      "whySteps": {
-        "step1Title": "Understand the setup",
-        "step1Description": "See how the Dead True crew, the island, and the supernatural legend connect",
-        "step2Title": "Track route logic",
-        "step2Description": "Follow the bigger consequence chains behind dialogue and panic decisions",
-        "step3Title": "Compare outcomes",
-        "step3Description": "Use route-based coverage to contrast survivor states and ending directions"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Story and Choices Coverage"
-    },
-    "items": {
-      "title": "Until Dawn 2 Characters and Features",
-      "description": "Character, cast, and feature pages for Until Dawn 2, including the Dead True crew, Dr Hill, and release-era systems.",
-      "metaTitle": "Until Dawn 2 Characters and Features - Cast & Systems",
-      "metaDescription": "Browse Until Dawn 2 character and feature coverage, including the Dead True crew, Dr Hill, release information, and core gameplay systems.",
-      "categoryLabel": "CAST & FEATURES",
-      "whatIs": "What are Characters and Features?",
-      "whatIsDescription": "This section covers the people, story roles, gameplay features, and release-era details that define Until Dawn 2.",
-      "why": "Why check character pages?",
-      "whySteps": {
-        "step1Title": "Meet the cast direction",
-        "step1Description": "See what is confirmed about the new crew and returning figures",
-        "step2Title": "Understand feature highlights",
-        "step2Description": "Track the systems and presentation hooks the sequel is built around",
-        "step3Title": "Keep up with reveals",
-        "step3Description": "Use character and feature pages to monitor new official announcements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Character and Feature Pages"
-    },
-    "biomes": {
-      "title": "Until Dawn 2 Island and Setting",
-      "description": "Coverage focused on the island, its supernatural legend, atmosphere, and story backdrop in Until Dawn 2.",
-      "metaTitle": "Until Dawn 2 Island and Setting - Story World Guide",
-      "metaDescription": "Explore Until Dawn 2 setting coverage, including the haunted island, supernatural legend, and the world surrounding the Dead True crew.",
-      "categoryLabel": "SETTING GUIDE",
-      "whatIs": "What is Island and Setting?",
-      "whatIsDescription": "These pages focus on the location, mythology, and environmental storytelling that define the world of Until Dawn 2.",
-      "why": "Why follow setting coverage?",
-      "whySteps": {
-        "step1Title": "Understand the location",
-        "step1Description": "See how the island changes the mood and conflict of the sequel",
-        "step2Title": "Track the legend",
-        "step2Description": "Follow the supernatural history behind the story’s horror premise",
-        "step3Title": "Connect place to choices",
-        "step3Description": "Use setting pages to understand why certain threats and routes matter"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Island and Setting Coverage"
-    },
-    "building": {
-      "title": "Until Dawn 2 Series Background",
-      "description": "Series-history and studio background coverage for Until Dawn 2, including Firesprite, Sony, and the franchise timeline.",
-      "metaTitle": "Until Dawn 2 Series Background - Studio and Franchise History",
-      "metaDescription": "Read Until Dawn 2 background coverage focused on Firesprite, Sony, the original game’s legacy, and the sequel’s place in the series timeline.",
-      "categoryLabel": "SERIES BACKGROUND",
-      "whatIs": "What is Series Background?",
-      "whatIsDescription": "This section explains who is making Until Dawn 2, how it fits into the wider franchise, and what changed between the original game and the sequel.",
-      "why": "Why read background coverage?",
-      "whySteps": {
-        "step1Title": "Learn the studio roles",
-        "step1Description": "See how Firesprite and Sony are positioned in the sequel’s development",
-        "step2Title": "Place the sequel in context",
-        "step2Description": "Understand how Until Dawn 2 differs from earlier entries while keeping the same identity",
-        "step3Title": "Track the timeline",
-        "step3Description": "Follow the series milestones leading to the 2027 release window"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Series Background Coverage"
-    },
-    "support": {
-      "title": "Until Dawn 2 FAQ and Support",
-      "description": "Fast answers for Until Dawn 2 release, platform, wishlist, and official-source questions.",
-      "metaTitle": "Until Dawn 2 FAQ and Support - Release and Platform Answers",
-      "metaDescription": "Find fast Until Dawn 2 answers covering release timing, PS5 availability, wishlisting, official sources, and sequel basics.",
-      "categoryLabel": "FAQ & SUPPORT",
-      "whatIs": "What is FAQ and Support?",
-      "whatIsDescription": "This section gives quick answers for players who want clean release facts, platform info, and official-source guidance for Until Dawn 2.",
-      "why": "Why check this section?",
-      "whySteps": {
-        "step1Title": "Get the basics quickly",
-        "step1Description": "Check platform, release window, and store status without digging through longer pages",
-        "step2Title": "Find official links",
-        "step2Description": "Jump to the PlayStation Store, reveal trailer, and developer sources from one place",
-        "step3Title": "Keep questions organized",
-        "step3Description": "Use FAQ-style pages to revisit common Until Dawn 2 topics as new details appear"
-      },
-      "featured": "Featured & Essential",
-      "all": "All FAQ and Support Pages"
+      "all": "All Until Dawn 2 Guide Articles"
     }
   }
 }

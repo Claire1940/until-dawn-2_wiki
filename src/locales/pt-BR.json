@@ -1,10 +1,589 @@
 {
+  "seo": {
+    "home": {
+      "title": "Until Dawn 2 Wiki - Data de Lançamento, Trailer e Escolhas",
+      "description": "Until Dawn 2 Wiki cobre o lançamento para PS5 em 2027, trailer de revelação, enredo, elenco, escolhas do Efeito Borboleta e atualizações oficiais da lista de desejos.",
+      "keywords": "Until Dawn 2, Until Dawn 2 wiki, PS5, data de lançamento, trailer, Firesprite, história, escolhas",
+      "ogTitle": "Until Dawn 2 Wiki - Data de Lançamento, Trailer e Escolhas",
+      "ogDescription": "Until Dawn 2 Wiki cobre o lançamento para PS5 em 2027, trailer de revelação, enredo, elenco, escolhas do Efeito Borboleta e atualizações oficiais da lista de desejos.",
+      "twitterTitle": "Until Dawn 2 Wiki - Data de Lançamento, Trailer e Escolhas",
+      "twitterDescription": "Until Dawn 2 Wiki acompanha a janela de lançamento para PS5, trailer, personagens, enredo e escolhas de sobrevivência."
+    }
+  },
   "nav": {
-    "release": "Release",
-    "platforms": "Platforms",
+    "release": "Lançamento",
+    "platforms": "Plataformas",
     "trailer": "Trailer",
-    "cast": "Cast",
-    "story": "Story",
-    "guide": "Guide"
+    "cast": "Elenco",
+    "story": "História",
+    "guide": "Guia"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Visitar Site Oficial",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Terror Cinematográfico Baseado em Escolhas",
+    "title": "Until Dawn 2 Wiki",
+    "description": "Until Dawn 2 é uma sequência de terror cinematográfico para PS5 onde a equipe Dead True persegue um sucesso paranormal em uma ilha tropical assombrada. Acompanhe a janela de lançamento, trailer, história, personagens e escolhas de sobrevivência.",
+    "getFreeCodesCTA": "Site Oficial de Until Dawn 2",
+    "playOnSteamCTA": "Adicionar Until Dawn 2 à Lista de Desejos no PS5",
+    "stats": {
+      "stat1": {
+        "value": "2027",
+        "label": "Janela de Lançamento"
+      },
+      "stat2": {
+        "value": "PS5",
+        "label": "Plataforma"
+      },
+      "stat3": {
+        "value": "Firesprite",
+        "label": "Desenvolvedor"
+      },
+      "stat4": {
+        "value": "Wishlist",
+        "label": "Status da Loja"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Trailer de Revelação de Until Dawn 2",
+    "description": "Assista à revelação oficial de Until Dawn 2 e acompanhe a história confirmada, o elenco e os detalhes de lançamento para PS5."
+  },
+  "tools": {
+    "title": "Until Dawn 2",
+    "titleHighlight": "Módulos",
+    "subtitle": "Vá direto para as oito seções essenciais da página inicial de Until Dawn 2",
+    "cards": [
+      {
+        "icon": "Clock",
+        "title": "Data de Lançamento e Plataformas de Until Dawn 2",
+        "description": "Janela de lançamento confirmada, plataforma, distribuidora e status da lista de desejos"
+      },
+      {
+        "icon": "Eye",
+        "title": "Trailer e Anúncio de Until Dawn 2",
+        "description": "Trailer oficial, revelação no State of Play e links de anúncio"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "História e Ambientação de Until Dawn 2",
+        "description": "Configuração de sequência independente, equipe Dead True e premissa de terror na ilha"
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "Jogabilidade e Butterfly Effect em Until Dawn 2",
+        "description": "Como escolhas, relacionamentos e ramificações de sobrevivência moldam a história"
+      },
+      {
+        "icon": "Users",
+        "title": "Personagens e Elenco de Until Dawn 2",
+        "description": "O novo grupo de sobreviventes, Dr Hill e a estrutura central de terror"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes de Until Dawn 2",
+        "description": "Como abordar decisões, exploração, tensão e rotas de replay"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Escolhas e Finais de Until Dawn 2",
+        "description": "Categorias de decisões importantes, resultados de sobrevivência e planejamento de replay"
+      },
+      {
+        "icon": "Home",
+        "title": "Desenvolvedora e Histórico da Série Until Dawn 2",
+        "description": "Firesprite, Sony e como a sequência se conecta à série"
+      }
+    ]
+  },
+  "modules": {
+    "untilDawn2ReleaseDateAndPlatforms": {
+      "eyebrow": "Informações de Lançamento",
+      "title": "Data de Lançamento e Plataformas de Until Dawn 2",
+      "intro": "Until Dawn 2 foi anunciado oficialmente para PlayStation 5 e está planejado para 2027. Esta seção mantém os principais detalhes da loja, plataforma e lançamento em um só lugar.",
+      "items": [
+        {
+          "label": "Janela de Lançamento",
+          "value": "2027",
+          "note": "Until Dawn 2 está planejado para ser lançado em 2027."
+        },
+        {
+          "label": "Plataforma",
+          "value": "PlayStation 5",
+          "note": "O jogo está anunciado atualmente para PS5."
+        },
+        {
+          "label": "Distribuidora",
+          "value": "Sony Interactive Entertainment",
+          "note": "Sony Interactive Entertainment está listada como distribuidora."
+        },
+        {
+          "label": "Desenvolvedora",
+          "value": "Firesprite Ltd.",
+          "note": "A Firesprite está desenvolvendo Until Dawn 2."
+        },
+        {
+          "label": "Status na Loja",
+          "value": "Anunciado",
+          "note": "A PlayStation Store lista Until Dawn 2 como anunciado."
+        },
+        {
+          "label": "Lista de Desejos",
+          "value": "Disponível",
+          "note": "Os jogadores podem adicionar Until Dawn 2 à sua lista de desejos da PlayStation Store."
+        },
+        {
+          "label": "Gênero",
+          "value": "Adventure",
+          "note": "A PlayStation Store categoriza Until Dawn 2 como Aventura."
+        },
+        {
+          "label": "Recursos do Controle",
+          "value": "Vibração DualSense e Efeitos de Gatilho",
+          "note": "A página da loja lista suporte para função de vibração e efeito de gatilho."
+        }
+      ]
+    },
+    "untilDawn2TrailerAndAnnouncement": {
+      "eyebrow": "Revelação Oficial",
+      "title": "Trailer e Anúncio de Until Dawn 2",
+      "intro": "Until Dawn 2 foi revelado durante o PlayStation State of Play com um trailer oficial, uma confirmação da janela de lançamento e um primeiro vislumbre do novo elenco independente e do cenário da ilha.",
+      "items": [
+        {
+          "title": "Until Dawn 2 - Trailer de Anúncio | Jogos de PS5",
+          "type": "Trailer Oficial",
+          "url": "https://www.youtube.com/watch?v=QpVZ9OvRLZI",
+          "platform": "YouTube",
+          "description": "O trailer de revelação apresenta a equipe Dead True, a ilha tropical e o tom de terror baseado em escolhas da sequência."
+        },
+        {
+          "title": "Anúncio do State of Play de Junho de 2026",
+          "type": "Revelação Oficial do Evento",
+          "url": "https://blog.playstation.com/2026/06/02/state-of-play-june-2026-all-announcements-trailers/",
+          "platform": "PlayStation Blog",
+          "description": "A PlayStation anunciou publicamente Until Dawn 2 como uma sequência para PS5 em 2027, desenvolvida pela Firesprite."
+        },
+        {
+          "title": "Artigo de Revelação da História de Until Dawn 2",
+          "type": "Análise Aprofundada Oficial",
+          "url": "https://blog.playstation.com/2026/06/02/until-dawn-2-is-coming-to-ps5-in-2027/",
+          "platform": "PlayStation Blog",
+          "description": "O artigo de revelação explica a configuração da história, a nova equipe de caçadores de fantasmas, a mecânica do Butterfly Effect e o retorno de Dr Hill."
+        }
+      ]
+    },
+    "untilDawn2StoryAndSetting": {
+      "eyebrow": "História",
+      "title": "História e Cenário de Until Dawn 2",
+      "intro": "Until Dawn 2 é uma sequência independente com um novo elenco, um novo destino e uma nova crise sobrenatural. A configuração central gira em torno de uma equipe de caçadores de fantasmas cuja busca por fama viral se transforma em uma luta para sobreviver à noite.",
+      "items": [
+        {
+          "title": "Sequência Independente",
+          "description": "Until Dawn 2 inicia uma nova história em vez de continuar diretamente com o elenco jogável original.",
+          "detail": "A sequência mantém a identidade da série de escolhas de terror e pressão de sobrevivência, enquanto muda para um novo grupo e local."
+        },
+        {
+          "title": "Equipe Dead True",
+          "description": "O elenco principal são as personalidades por trás de Dead True, um canal paranormal em busca de um momento de destaque.",
+          "detail": "Seus sustos encenados deixam de parecer seguros quando a ilha começa a respondê-los com perigos sobrenaturais reais."
+        },
+        {
+          "title": "Episódio Financiado pela TV",
+          "description": "A equipe assina um contrato para sua primeira grande investigação com apoio da TV.",
+          "detail": "Essa oportunidade os empurra para um local muito mais perigoso do que qualquer coisa que esperavam filmar."
+        },
+        {
+          "title": "Ilha Tropical Remota",
+          "description": "O novo cenário é uma ilha tropical abandonada construída sobre lendas antigas e traumas ocultos.",
+          "detail": "O ambiente mistura luz do dia brilhante, isolamento e história enterrada de uma forma que contrasta fortemente com o cenário original da montanha."
+        },
+        {
+          "title": "Lenda Assombrada",
+          "description": "A ilha está ligada à história arrepiante de uma mulher sobre demônios e manifestações fantasmagóricas.",
+          "detail": "À medida que a equipe investiga, a lenda começa a se manifestar ao redor deles de maneiras cada vez mais violentas."
+        },
+        {
+          "title": "Dr Hill Retorna",
+          "description": "Dr Hill aparece novamente em Until Dawn 2, com Peter Stormare reprisando o papel.",
+          "detail": "Sua presença liga a sequência a um dos fios psicológicos mais reconhecíveis da série."
+        }
+      ]
+    },
+    "untilDawn2GameplayAndButterflyEffect": {
+      "eyebrow": "Jogabilidade",
+      "title": "Jogabilidade de Until Dawn 2 e Efeito Borboleta",
+      "intro": "Until Dawn 2 mantém a fórmula de terror interativo da série. Escolhas de diálogo, mudanças de relacionamento, decisões de pânico e pequenos momentos dos personagens podem se tornar grandes consequências de sobrevivência mais tarde na história.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Faça Escolhas na História",
+          "description": "Os jogadores escolhem como o elenco reage durante discussões, descobertas e cenas de terror.",
+          "player_impact": "Essas escolhas podem redirecionar a confiança, o perigo e quem é exposto primeiro quando a ilha se torna hostil."
+        },
+        {
+          "step": 2,
+          "title": "Gerencie Relacionamentos da Equipe",
+          "description": "O estado emocional da equipe Dead True importa ao longo da narrativa.",
+          "player_impact": "Amizade, medo, traição e pressão da fama podem mudar quais rotas permanecem abertas."
+        },
+        {
+          "step": 3,
+          "title": "Enfrente a Pressão de Vida ou Morte",
+          "description": "As cenas são construídas em torno de decisões tomadas sob estresse, em vez de um planejamento lento e desapegado.",
+          "player_impact": "Uma escolha rápida pode determinar quem escapa, quem fica preso e quem se torna vulnerável mais tarde."
+        },
+        {
+          "step": 4,
+          "title": "Acione o Efeito Borboleta",
+          "description": "Pequenas ações podem levar a consequências muito maiores na história.",
+          "player_impact": "A estrutura ramificada do jogo recompensa os jogadores que prestam atenção tanto às decisões óbvias quanto às interações sutis."
+        },
+        {
+          "step": 5,
+          "title": "Molde Quem Sobrevive Até o Amanhecer",
+          "description": "O objetivo central continua sendo fazer com que o maior número possível de personagens sobreviva à noite.",
+          "player_impact": "Sua versão de Until Dawn 2 muda com base em quem sobrevive, quem divide o grupo e quem descobre a verdade."
+        }
+      ]
+    },
+    "untilDawn2CharactersAndCast": {
+      "eyebrow": "Personagens",
+      "title": "Personagens e Elenco de Until Dawn 2",
+      "intro": "Until Dawn 2 apresenta um novo grupo de sobreviventes, ao mesmo tempo em que traz Dr Hill de volta à série. A direção confirmada do elenco se concentra na equipe Dead True e na lenda da ilha assombrada que os cerca.",
+      "items": [
+        {
+          "name": "Equipe de Caçadores de Fantasmas Dead True",
+          "role": "Grupo Principal de Sobreviventes",
+          "status": "Confirmado",
+          "description": "O novo conjunto jogável é a equipe Dead True, um grupo de caçadores de fantasmas cuja busca por um episódio que defina suas carreiras se transforma em terror real.",
+          "key_points": [
+            "Elenco totalmente novo para uma sequência autônoma",
+            "Personalidades paranormais em busca de um grande sucesso",
+            "Relacionamentos dentro da equipe moldam cenas ramificadas",
+            "A sobrevivência do grupo depende das decisões do jogador"
+          ]
+        },
+        {
+          "name": "Dr Hill",
+          "role": "Personagem Retornando",
+          "status": "Confirmado",
+          "description": "Dr Hill retorna em Until Dawn 2, com Peter Stormare reprisando o papel e reconectando a sequência à identidade psicológica da série.",
+          "key_points": [
+            "Visto no material de revelação oficial",
+            "Interpretado novamente por Peter Stormare",
+            "Conecta a sequência ao tom mais amplo de Until Dawn",
+            "Mais contexto da história é esperado antes do lançamento"
+          ]
+        },
+        {
+          "name": "Lenda da Ilha Remota",
+          "role": "Cenário Central de Terror",
+          "status": "Elemento da História Confirmado",
+          "description": "A lenda sobrenatural da ilha funciona quase como um personagem próprio, moldando o medo, as decisões e as ameaças que o elenco enfrenta.",
+          "key_points": [
+            "Cenário de ilha tropical abandonada",
+            "Segredos centenários escondidos sob a superfície",
+            "Manifestações demoníacas e fantasmagóricas",
+            "A lenda se torna ativa à medida que a história se intensifica"
+          ]
+        }
+      ]
+    },
+    "untilDawn2BeginnerGuide": {
+      "eyebrow": "Guia para Iniciantes",
+      "title": "Guia para Iniciantes de Until Dawn 2",
+      "intro": "Novos jogadores devem abordar Until Dawn 2 como um drama de sobrevivência onde cada conversa, pista e decisão tensa podem importar. A primeira jogada mais segura vem de desacelerar, ler os relacionamentos com cuidado e tratar cada susto como parte de um caminho mais longo.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Trate cada escolha como significativa",
+          "description": "Mesmo diálogos casuais ou pequenos atos de confiança podem importar mais tarde em um jogo de terror com ramificações.",
+          "player_tip": "Pause por um segundo antes de grandes respostas e pense em segurança, confiança e consequências a longo prazo."
+        },
+        {
+          "step": 2,
+          "title": "Observe a dinâmica do grupo",
+          "description": "Until Dawn 2 dá peso a como a equipe Dead True se sente um em relação ao outro.",
+          "player_tip": "Evite criar fraturas desnecessárias, a menos que você esteja deliberadamente testando um caminho mais sombrio."
+        },
+        {
+          "step": 3,
+          "title": "Explore antes de avançar",
+          "description": "O contexto da história geralmente fica mais claro se você inspecionar quartos, caminhos laterais e pistas ambientais primeiro.",
+          "player_tip": "Um ritmo mais lento geralmente lhe dá um contexto melhor antes da próxima escolha perigosa."
+        },
+        {
+          "step": 4,
+          "title": "Mantenha a calma durante as cenas de pânico",
+          "description": "A pressão do terror funciona melhor quando o jogo o força a reagir rapidamente sob estresse.",
+          "player_tip": "Concentre-se no aviso antes do susto. Perder um batimento pode mudar o caminho."
+        },
+        {
+          "step": 5,
+          "title": "Jogue novamente com intenção",
+          "description": "Until Dawn 2 é projetado para múltiplos resultados, estados de relacionamento e combinações de sobrevivência.",
+          "player_tip": "Deixe sua primeira jogada ser honesta, depois jogue novamente capítulos específicos para testar ramificações alternativas."
+        }
+      ],
+      "tip_title": "Dicas Rápidas de Until Dawn 2",
+      "quick_tips": [
+        "Uma pequena escolha de conversa ainda pode gerar uma recompensa maior mais tarde na noite.",
+        "Se um personagem se sentir isolado, observe as cenas onde o apoio ou o abandono podem importar.",
+        "Pistas ambientais podem mudar a forma como você interpreta decisões posteriores da história.",
+        "Uma primeira jogada cega geralmente oferece a tensão mais forte antes de você começar a testar rotas."
+      ]
+    },
+    "untilDawn2ChoicesAndEndings": {
+      "eyebrow": "Escolhas",
+      "title": "Escolhas e Finais de Until Dawn 2",
+      "intro": "Until Dawn 2 mantém a franquia focada em resultados de sobrevivência ramificados. Antes do lançamento, a maneira mais segura de pensar sobre o jogo é através de suas principais categorias de escolha: sobrevivência, confiança, mudanças de rota e cadeias de consequências rejogáveis.",
+      "items": [
+        {
+          "title": "Como as escolhas afetam a sobrevivência",
+          "summary": "Acompanhe quem vive, quem fica para trás e quem é exposto.",
+          "content": "Until Dawn 2 constrói tensão ao ligar as decisões do jogador a perigos imediatos e consequências atrasadas. Uma decisão pode proteger alguém no momento ou silenciosamente colocá-lo em risco mais tarde."
+        },
+        {
+          "title": "Como os relacionamentos afetam as rotas",
+          "summary": "A dinâmica da equipe pode abrir ou fechar caminhos da história.",
+          "content": "Confiança, ressentimento, ambição, medo e lealdade dentro da equipe Dead True podem remodelar cenas posteriores. A gestão de relacionamentos faz parte da sobrevivência, não apenas um texto de sabor."
+        },
+        {
+          "title": "O que significa o Butterfly Effect",
+          "summary": "Pequenos momentos podem levar a história em uma direção muito diferente.",
+          "content": "Uma linha de diálogo, uma reação em frações de segundo ou uma escolha pessoal feita sob pressão podem ecoar em mudanças de rota, mortes de personagens ou novas descobertas."
+        },
+        {
+          "title": "Como os finais devem ser rastreados",
+          "summary": "Use a contagem de sobreviventes, o estado do relacionamento e as principais revelações como as categorias principais.",
+          "content": "Um rastreador de finais prático para Until Dawn 2 deve organizar quais personagens sobrevivem, quais relacionamentos se mantêm, quais segredos são descobertos e como o conflito da ilha se resolve."
+        },
+        {
+          "title": "Melhor abordagem para a primeira jogada",
+          "summary": "Jogue naturalmente primeiro, depois jogue novamente com um objetivo de rota.",
+          "content": "A maneira mais limpa de experimentar Until Dawn 2 é fazer escolhas instintivas em sua primeira jogada. Jogue novamente os capítulos mais tarde se você quiser combinações de sobrevivência específicas ou resultados emocionais alternativos."
+        }
+      ]
+    },
+    "untilDawn2DeveloperAndSeriesBackground": {
+      "eyebrow": "Contexto",
+      "title": "Desenvolvedor e Histórico da Série Until Dawn 2",
+      "intro": "Until Dawn 2 é desenvolvido pela Firesprite Ltd. e publicado pela Sony Interactive Entertainment para PlayStation 5. A sequência mantém a identidade de terror cinematográfico da franquia, enquanto se move para um novo elenco, novo cenário e novo mistério central.",
+      "items": [
+        {
+          "year": "2015",
+          "title": "Until Dawn é lançado no PlayStation 4",
+          "description": "O jogo original estabeleceu a franquia com terror cinematográfico, destino de personagens ramificado e a ideia de que cada jogador poderia criar uma noite de sobrevivência diferente.",
+          "type": "Marco da Série"
+        },
+        {
+          "year": "2024",
+          "title": "Until Dawn retorna para PS5 e PC",
+          "description": "O lançamento moderno atualizou a história original para hardware mais recente e ajudou a reintroduzir a série a um público mais amplo antes do anúncio da sequência.",
+          "type": "Marco da Série"
+        },
+        {
+          "year": "2026",
+          "title": "Until Dawn 2 é anunciado",
+          "description": "A Sony Interactive Entertainment e a Firesprite revelaram Until Dawn 2 durante o State of Play, confirmando uma sequência autônoma para PS5 com um novo elenco e o retorno do Dr Hill.",
+          "type": "Anúncio"
+        },
+        {
+          "year": "2027",
+          "title": "Until Dawn 2 está planejado para PS5",
+          "description": "As páginas oficiais do PlayStation listam Until Dawn 2 para PlayStation 5 com uma janela de lançamento em 2027 e a possibilidade de adicionar à lista de desejos.",
+          "type": "Janela de Lançamento"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Until Dawn 2",
+    "titleHighlight": "FAQ",
+    "subtitle": "Respostas rápidas às perguntas mais comuns sobre o lançamento, plataforma e história de Until Dawn 2",
+    "questions": [
+      {
+        "question": "Until Dawn 2 é uma sequência direta do elenco original de Until Dawn?",
+        "answer": "Until Dawn 2 é apresentado como uma sequência autônoma com um novo elenco jogável, um novo cenário de ilha e uma nova crise sobrenatural."
+      },
+      {
+        "question": "Para qual plataforma Until Dawn 2 foi anunciado?",
+        "answer": "Until Dawn 2 foi oficialmente anunciado para PlayStation 5."
+      },
+      {
+        "question": "Quando Until Dawn 2 será lançado?",
+        "answer": "Until Dawn 2 está atualmente planejado para ser lançado em 2027."
+      },
+      {
+        "question": "Until Dawn 2 mantém o sistema Butterfly Effect?",
+        "answer": "Sim. Until Dawn 2 mantém a estrutura de escolha e consequência, incluindo ramificações baseadas em relacionamentos e resultados de sobrevivência moldados pelas decisões do jogador."
+      },
+      {
+        "question": "Quem está desenvolvendo Until Dawn 2?",
+        "answer": "Until Dawn 2 está sendo desenvolvido pela Firesprite Ltd. e publicado pela Sony Interactive Entertainment."
+      },
+      {
+        "question": "Posso adicionar Until Dawn 2 à minha lista de desejos agora?",
+        "answer": "Sim. Until Dawn 2 já pode ser adicionado à lista de desejos da PlayStation Store."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Fique por Dentro de Until Dawn 2",
+    "description": "Assista ao trailer oficial de revelação, siga as atualizações do PlayStation e adicione Until Dawn 2 à sua lista de desejos no PS5 enquanto a Firesprite compartilha mais detalhes da história e jogabilidade.",
+    "joinCommunity": "Assistir ao Trailer de Until Dawn 2",
+    "joinGame": "Adicionar Until Dawn 2 à Lista de Desejos no PS5"
+  },
+  "footer": {
+    "title": "Wiki de Until Dawn 2",
+    "description": "Seu centro feito por fãs para notícias de lançamento de Until Dawn 2, trailers, configuração da história, detalhes dos personagens e cobertura de sobrevivência baseada em escolhas.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "discord": "PlayStation no X",
+    "twitter": "Firesprite no X",
+    "steamCommunity": "r/UntilDawn",
+    "steamStore": "Trailer Oficial",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Wiki de Until Dawn 2. Não oficial e não afiliado à Sony Interactive Entertainment ou Firesprite.",
+    "disclaimer": "Wiki de Until Dawn 2 é um site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "release": {
+      "title": "Lançamento de Until Dawn 2",
+      "description": "Acompanhe a janela de lançamento de Until Dawn 2, status do anúncio, confirmação da sequência e o cronograma oficial em torno de seus planos de lançamento para 2027.",
+      "metaTitle": "Lançamento de Until Dawn 2 - Data, Confirmação e Janela de Lançamento",
+      "metaDescription": "Acompanhe a cobertura do lançamento de Until Dawn 2 com a janela confirmada de 2027, status da sequência, atualizações de desenvolvimento e o cronograma oficial de lançamento.",
+      "categoryLabel": "LANÇAMENTO",
+      "whatIs": "O que é Lançamento?",
+      "whatIsDescription": "Esta categoria foca na cobertura do lançamento de Until Dawn 2: a janela anunciada de 2027, confirmação da sequência, status de desenvolvimento e atualizações relacionadas ao tempo de fontes oficiais.",
+      "why": "Por que ler a cobertura de lançamento?",
+      "whySteps": {
+        "step1Title": "Confirmar o cronograma",
+        "step1Description": "Veja a janela de lançamento atualmente anunciada e como a mensagem oficial sobre o tempo de lançamento evolui.",
+        "step2Title": "Acompanhar o status da sequência",
+        "step2Description": "Acompanhe a confirmação, o progresso do desenvolvimento e se os planos da plataforma ou as expectativas de lançamento mudam.",
+        "step3Title": "Preparar para novas atualizações",
+        "step3Description": "Mantenha um registro limpo de anúncios relacionados ao lançamento sem misturá-los com análises de história ou trailer."
+      },
+      "featured": "Destaque e Essencial",
+      "all": "Todos os Artigos de Lançamento de Until Dawn 2"
+    },
+    "platforms": {
+      "title": "Plataformas de Until Dawn 2",
+      "description": "Navegue pela cobertura das plataformas de Until Dawn 2 para PS5, PC, Steam, Xbox, PS4, Switch 2 e perguntas sobre requisitos de sistema ligadas à sequência.",
+      "metaTitle": "Plataformas de Until Dawn 2 - PS5, PC, Steam e Mais",
+      "metaDescription": "Leia a cobertura das plataformas de Until Dawn 2 para PS5 e todas as principais perguntas sobre port, incluindo PC, Steam, Xbox, PS4, Switch 2 e requisitos de sistema.",
+      "categoryLabel": "PLATAFORMAS",
+      "whatIs": "O que são Plataformas?",
+      "whatIsDescription": "Estas páginas rastreiam onde Until Dawn 2 é oficialmente anunciado, quais sistemas ainda não foram confirmados e como a disponibilidade da loja difere por questão de plataforma.",
+      "why": "Por que seguir as páginas de plataforma?",
+      "whySteps": {
+        "step1Title": "Verificar suporte oficial",
+        "step1Description": "Separe as plataformas confirmadas da especulação da lista de desejos e mantenha o status atual do PS5 claro.",
+        "step2Title": "Acompanhar perguntas sobre port",
+        "step2Description": "Acompanhe as perguntas recorrentes sobre PC, Steam, Xbox, PS4 e Switch 2 em uma categoria, em vez de artigos espalhados.",
+        "step3Title": "Planejar sua configuração",
+        "step3Description": "Use as páginas da plataforma para procurar atualizações da loja, detalhes de hardware e futuras notas de compatibilidade."
+      },
+      "featured": "Destaque e Essencial",
+      "all": "Todos os Artigos de Plataforma de Until Dawn 2"
+    },
+    "trailer": {
+      "title": "Trailer de Until Dawn 2",
+      "description": "Assista e analise o trailer de Until Dawn 2, revelações, cobertura do State of Play, clipes de teaser e os primeiros sinais oficiais de jogabilidade.",
+      "metaTitle": "Trailer de Until Dawn 2 - Revelação, Teaser e State of Play",
+      "metaDescription": "Explore a cobertura do trailer de Until Dawn 2 com detalhes oficiais da revelação, filmagens do State of Play, análise do teaser e primeiras impressões da jogabilidade.",
+      "categoryLabel": "TRAILER",
+      "whatIs": "O que é Trailer?",
+      "whatIsDescription": "Esta categoria reúne revelações oficiais em vídeo de Until Dawn 2, filmagens de anúncios e cobertura de artigos focados no que o trailer confirma sobre tom, elenco e jogabilidade.",
+      "why": "Por que ler a cobertura do trailer?",
+      "whySteps": {
+        "step1Title": "Veja o que está confirmado",
+        "step1Description": "Use as páginas do trailer para separar as revelações oficiais de discussões cheias de rumores e teorias de fãs.",
+        "step2Title": "Capture detalhes visuais",
+        "step2Description": "Revise fotos de personagens, imagens da ilha e dicas de jogabilidade que são fáceis de perder em uma primeira visualização.",
+        "step3Title": "Acompanhe cada revelação",
+        "step3Description": "Mantenha o trailer de revelação, clipes de teaser e eventos de anúncio organizados em um único caminho de navegação."
+      },
+      "featured": "Em Destaque e Essencial",
+      "all": "Todos os Artigos do Trailer de Until Dawn 2"
+    },
+    "cast": {
+      "title": "Elenco de Until Dawn 2",
+      "description": "Conheça o elenco de Until Dawn 2 através da cobertura de personagens, atores e equipe, focada no novo conjunto, Dr Hill e detalhes de desempenho confirmados.",
+      "metaTitle": "Elenco de Until Dawn 2 - Personagens, Atores e Equipe",
+      "metaDescription": "Navegue pela cobertura do elenco de Until Dawn 2 com guias de personagens, páginas de atores, atualizações do Dr Hill e o conjunto confirmado por trás da sequência.",
+      "categoryLabel": "ELENCO",
+      "whatIs": "O que é Elenco?",
+      "whatIsDescription": "As páginas de elenco focam nas pessoas que moldam Until Dawn 2, incluindo personagens confirmados, atores, papéis que retornam e o conjunto mais amplo em torno da equipe Dead True.",
+      "why": "Por que seguir as páginas de elenco?",
+      "whySteps": {
+        "step1Title": "Conheça o conjunto",
+        "step1Description": "Acompanhe quem está na nova história e como cada papel revelado se encaixa na configuração da sequência.",
+        "step2Title": "Acompanhe os detalhes do ator",
+        "step2Description": "Leia páginas focadas em artistas e figuras que retornam sem misturá-las em artigos de plataforma ou lançamento.",
+        "step3Title": "Entenda a dinâmica do grupo",
+        "step3Description": "Use a cobertura do elenco para conectar as revelações dos personagens à estrutura da história baseada em relacionamentos."
+      },
+      "featured": "Em Destaque e Essencial",
+      "all": "Todos os Artigos do Elenco de Until Dawn 2"
+    },
+    "story": {
+      "title": "História de Until Dawn 2",
+      "description": "Explore a cobertura da história de Until Dawn 2 em torno do cenário da ilha, ameaça sobrenatural, temas que retornam, finais e premissa de terror baseada em escolhas.",
+      "metaTitle": "História de Until Dawn 2 - Cenário, Escolhas e Premissa de Terror",
+      "metaDescription": "Leia a cobertura da história de Until Dawn 2 apresentando o cenário da ilha, perigo sobrenatural, finais e a configuração de sobrevivência baseada em escolhas por trás da sequência.",
+      "categoryLabel": "HISTÓRIA",
+      "whatIs": "O que é História?",
+      "whatIsDescription": "As páginas da história focam na premissa oficial, cenário da ilha, elementos sobrenaturais, riscos dos personagens e as ideias de narrativa ramificada que definem Until Dawn 2.",
+      "why": "Por que ler a cobertura da história?",
+      "whySteps": {
+        "step1Title": "Entenda a premissa",
+        "step1Description": "Obtenha a configuração central da ilha, da equipe e da ameaça de terror antes de mergulhar em tópicos de artigos mais profundos.",
+        "step2Title": "Acompanhe os temas baseados em escolhas",
+        "step2Description": "Acompanhe como os finais, relacionamentos e caminhos de sobrevivência se conectam à estrutura narrativa da sequência.",
+        "step3Title": "Mantenha a lore organizada",
+        "step3Description": "Use uma categoria para história, monstros, finais e detalhes de cenário em vez de fragmentá-los em seções não relacionadas."
+      },
+      "featured": "Em Destaque e Essencial",
+      "all": "Todos os Artigos da História de Until Dawn 2"
+    },
+    "guide": {
+      "title": "Guia de Until Dawn 2",
+      "description": "Encontre a cobertura do guia de Until Dawn 2 para planejamento de passo a passo, colecionáveis, rotas de melhor final, escolhas de sobrevivência e preparação para a primeira jogada.",
+      "metaTitle": "Guia de Until Dawn 2 - Passo a Passo, Finais e Dicas de Sobrevivência",
+      "metaDescription": "Navegue pela cobertura do guia de Until Dawn 2 com ajuda de passo a passo, rotas de colecionáveis, planejamento do melhor final e conselhos de sobrevivência com consciência de spoilers.",
+      "categoryLabel": "GUIA",
+      "whatIs": "O que é Guia?",
+      "whatIsDescription": "As páginas de guia são artigos práticos para jogar Until Dawn 2, cobrindo prioridades de passo a passo, decisões de sobrevivência, caminhos de colecionáveis e planejamento de rejogabilidade.",
+      "why": "Por que ler guias?",
+      "whySteps": {
+        "step1Title": "Prepare sua primeira jogada",
+        "step1Description": "Comece com conselhos conscientes de spoilers sobre escolhas, ritmo e o que prestar atenção durante cenas tensas.",
+        "step2Title": "Planeje melhores resultados",
+        "step2Description": "Use artigos de guia para comparar rotas de sobrevivência, objetivos de melhor final e prioridades de colecionáveis.",
+        "step3Title": "Rejogue com intenção",
+        "step3Description": "Mantenha o passo a passo, as escolhas e a ajuda focada no final juntos quando quiser explorar ramificações alternativas."
+      },
+      "featured": "Em Destaque e Essencial",
+      "all": "Todos os Artigos do Guia de Until Dawn 2"
+    }
   }
 }

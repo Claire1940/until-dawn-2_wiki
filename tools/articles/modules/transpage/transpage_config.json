@@ -1,0 +1,49 @@
+{
+  "api_key": "",
+  "api_base_url": "https://api.apifast.tech/v1",
+  "model": "gemini-2.5-flash",
+  "group": "default",
+
+  "temperature": 0.1,
+  "max_tokens": 32768,
+  "timeout": 120,
+  "retry_attempts": 3,
+  "retry_delay": 5,
+
+  "languages": ["es", "ja", "pt-BR"],
+  "default_language": "en",
+  "output_dir": "src/locales/",
+
+  "use_value_extraction": true,
+
+  "protected_terms": {
+    "game_names": ["Until Dawn 2", "Until Dawn"],
+    "character_names": ["Dead True", "Dr Hill", "Peter Stormare"],
+    "technical_terms": [
+      "PlayStation",
+      "PS5",
+      "Firesprite",
+      "Sony Interactive Entertainment",
+      "Butterfly Effect",
+      "State of Play",
+      "PlayStation Store",
+      "YouTube",
+      "Steam",
+      "Xbox",
+      "Nintendo Switch 2"
+    ]
+  },
+
+  "game_names": {
+    "en": "Until Dawn 2",
+    "es": "Until Dawn 2",
+    "ja": "Until Dawn 2",
+    "pt-BR": "Until Dawn 2"
+  },
+
+  "lang_names": {
+    "es": "Spanish",
+    "ja": "Japanese",
+    "pt-BR": "Portuguese (Brazil)"
+  }
+}

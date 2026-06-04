@@ -1,10 +1,589 @@
 {
+  "seo": {
+    "home": {
+      "title": "Until Dawn 2 Wiki - 発売日、予告編、選択肢",
+      "description": "Until Dawn 2 Wikiは、2027年のPS5リリース、公開予告編、ストーリー設定、キャスト、バタフライエフェクトの選択肢、および公式ウィッシュリストの更新をカバーしています。",
+      "keywords": "Until Dawn 2, Until Dawn 2 wiki, PS5, 発売日, 予告編, Firesprite, ストーリー, 選択肢",
+      "ogTitle": "Until Dawn 2 Wiki - 発売日、予告編、選択肢",
+      "ogDescription": "Until Dawn 2 Wikiは、2027年のPS5リリース、公開予告編、ストーリー設定、キャスト、バタフライエフェクトの選択肢、および公式ウィッシュリストの更新をカバーしています。",
+      "twitterTitle": "Until Dawn 2 Wiki - 発売日、予告編、選択肢",
+      "twitterDescription": "Until Dawn 2 Wikiは、PS5のリリース時期、予告編、キャラクター、ストーリー設定、および生存の選択肢を追跡します。"
+    }
+  },
   "nav": {
-    "release": "Release",
-    "platforms": "Platforms",
-    "trailer": "Trailer",
-    "cast": "Cast",
-    "story": "Story",
-    "guide": "Guide"
+    "release": "リリース",
+    "platforms": "プラットフォーム",
+    "trailer": "予告編",
+    "cast": "キャスト",
+    "story": "ストーリー",
+    "guide": "ガイド"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "公式サイトを見る",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "シネマティック選択型ホラー",
+    "title": "Until Dawn 2 Wiki",
+    "description": "Until Dawn 2は、Dead Trueのクルーが呪われた熱帯の島で大ヒットした超常現象を追いかけるPS5のシネマティックホラー続編です。リリース時期、予告編、ストーリー、キャラクター、生存の選択肢を追跡します。",
+    "getFreeCodesCTA": "Until Dawn 2 公式サイト",
+    "playOnSteamCTA": "PS5でUntil Dawn 2をウィッシュリストに追加",
+    "stats": {
+      "stat1": {
+        "value": "2027",
+        "label": "リリース時期"
+      },
+      "stat2": {
+        "value": "PS5",
+        "label": "プラットフォーム"
+      },
+      "stat3": {
+        "value": "Firesprite",
+        "label": "開発元"
+      },
+      "stat4": {
+        "value": "Wishlist",
+        "label": "ストアステータス"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Until Dawn 2 発表トレーラー",
+    "description": "Until Dawn 2 の公式発表と、確定したストーリー、キャスト、PS5 の発売詳細をご覧ください。"
+  },
+  "tools": {
+    "title": "Until Dawn 2",
+    "titleHighlight": "モジュール",
+    "subtitle": "Until Dawn 2 の8つの主要なホームページセクションに直接ジャンプ",
+    "cards": [
+      {
+        "icon": "Clock",
+        "title": "Until Dawn 2 発売日とプラットフォーム",
+        "description": "確定した発売時期、プラットフォーム、パブリッシャー、ウィッシュリストの状況"
+      },
+      {
+        "icon": "Eye",
+        "title": "Until Dawn 2 トレーラーと発表",
+        "description": "公式トレーラー、State of Play での発表、および発表リンク"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Until Dawn 2 ストーリーと設定",
+        "description": "独立した続編の設定、Dead True のクルー、そして島のホラーという前提"
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "Until Dawn 2 ゲームプレイと Butterfly Effect",
+        "description": "選択、人間関係、そして生存ルートがストーリーをどのように形作るか"
+      },
+      {
+        "icon": "Users",
+        "title": "Until Dawn 2 キャラクターとキャスト",
+        "description": "新しい生存者グループ、Dr Hill、そして核となるホラー設定"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Until Dawn 2 初心者ガイド",
+        "description": "決断、探索、緊張、そしてリプレイルートへのアプローチ方法"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Until Dawn 2 選択とエンディング",
+        "description": "主要な決定カテゴリ、生存結果、およびリプレイ計画"
+      },
+      {
+        "icon": "Home",
+        "title": "Until Dawn 2 開発者とシリーズの背景",
+        "description": "Firesprite、Sony、そして続編がシリーズにどのように繋がるか"
+      }
+    ]
+  },
+  "modules": {
+    "untilDawn2ReleaseDateAndPlatforms": {
+      "eyebrow": "リリース情報",
+      "title": "Until Dawn 2 発売日とプラットフォーム",
+      "intro": "Until Dawn 2 は PlayStation 5 向けに正式に発表され、2027 年に予定されています。このセクションでは、主要なストア、プラットフォーム、発売の詳細をまとめています。",
+      "items": [
+        {
+          "label": "発売時期",
+          "value": "2027",
+          "note": "Until Dawn 2 は2027年にリリース予定です。"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "PlayStation 5",
+          "note": "現在、PS5向けに発表されています。"
+        },
+        {
+          "label": "パブリッシャー",
+          "value": "Sony Interactive Entertainment",
+          "note": "Sony Interactive Entertainment がパブリッシャーとして記載されています。"
+        },
+        {
+          "label": "開発者",
+          "value": "Firesprite Ltd.",
+          "note": "Firesprite が Until Dawn 2 を開発しています。"
+        },
+        {
+          "label": "ストア状況",
+          "value": "発表済み",
+          "note": "PlayStation Storeでは、Until Dawn 2 は発表済みと記載されています。"
+        },
+        {
+          "label": "ウィッシュリスト",
+          "value": "利用可能",
+          "note": "プレイヤーは Until Dawn 2 をPlayStation Storeのウィッシュリストに追加できます。"
+        },
+        {
+          "label": "ジャンル",
+          "value": "アドベンチャー",
+          "note": "PlayStation Storeでは、Until Dawn 2 はアドベンチャーに分類されています。"
+        },
+        {
+          "label": "コントローラー機能",
+          "value": "DualSense 振動およびトリガーエフェクト",
+          "note": "ストアページには、振動機能とトリガーエフェクトのサポートが記載されています。"
+        }
+      ]
+    },
+    "untilDawn2TrailerAndAnnouncement": {
+      "eyebrow": "公式発表",
+      "title": "Until Dawn 2のトレーラーと発表",
+      "intro": "Until Dawn 2は、PlayStation State of Playで公式トレーラー、発売時期の確認、新しい独立したキャストと島の舞台の初公開とともに発表されました。",
+      "items": [
+        {
+          "title": "Until Dawn 2 - 発表トレーラー | PS5ゲーム",
+          "type": "公式トレーラー",
+          "url": "https://www.youtube.com/watch?v=QpVZ9OvRLZI",
+          "platform": "YouTube",
+          "description": "この発表トレーラーでは、Dead Trueのクルー、熱帯の島、そして続編の選択主導型ホラーのトーンが紹介されています。"
+        },
+        {
+          "title": "State of Play 2026年6月発表",
+          "type": "公式イベント発表",
+          "url": "https://blog.playstation.com/2026/06/02/state-of-play-june-2026-all-announcements-trailers/",
+          "platform": "PlayStation Blog",
+          "description": "PlayStationは、Firespriteが開発する2027年発売のPS5向け続編としてUntil Dawn 2を公式に発表しました。"
+        },
+        {
+          "title": "Until Dawn 2 ストーリー発表記事",
+          "type": "公式詳細解説",
+          "url": "https://blog.playstation.com/2026/06/02/until-dawn-2-is-coming-to-ps5-in-2027/",
+          "platform": "PlayStation Blog",
+          "description": "この発表記事では、ストーリーの設定、新しいゴーストハンターのクルー、Butterfly Effectのメカニクス、そしてDr Hillの再登場について説明されています。"
+        }
+      ]
+    },
+    "untilDawn2StoryAndSetting": {
+      "eyebrow": "ストーリー",
+      "title": "Until Dawn 2のストーリーと設定",
+      "intro": "Until Dawn 2は、新しいキャスト、新しい目的地、そして新たな超常現象の危機を伴う独立した続編です。核となる設定は、バイラルな名声を追い求めるゴーストハンティングクルーが、夜を生き残るための戦いに巻き込まれるというものです。",
+      "items": [
+        {
+          "title": "独立した続編",
+          "description": "Until Dawn 2は、オリジナルのプレイアブルキャストを直接続けるのではなく、新しいストーリーを開始します。",
+          "detail": "この続編は、新しいグループと場所に焦点を移しながらも、ホラーの選択とサバイバルのプレッシャーというシリーズのアイデンティティを維持しています。"
+        },
+        {
+          "title": "Dead Trueクルー",
+          "description": "主要なキャストは、ブレイクの瞬間を追い求める超常現象チャンネルDead Trueのメンバーです。",
+          "detail": "島が本物の超常現象の危険で彼らに応え始めると、彼らの演出された恐怖は安全ではなくなります。"
+        },
+        {
+          "title": "テレビ資金によるエピソード",
+          "description": "クルーは、初の主要なテレビ支援による調査の契約を結びます。",
+          "detail": "その機会は、彼らを撮影を期待していたものよりもはるかに危険な場所へと押しやります。"
+        },
+        {
+          "title": "遠隔の熱帯の島",
+          "description": "新しい舞台は、古い伝説と隠されたトラウマの上に築かれた放棄された熱帯の島です。",
+          "detail": "この環境は、明るい昼光、孤立、埋もれた歴史を組み合わせ、オリジナルの山の設定とは対照的なものとなっています。"
+        },
+        {
+          "title": "呪われた伝説",
+          "description": "この島は、悪魔と幽霊の出現に関する女性の身も凍るような物語と結びついています。",
+          "detail": "クルーが調査を進めるにつれて、伝説は彼らの周りでますます暴力的な形で現れ始めます。"
+        },
+        {
+          "title": "Dr Hillの再登場",
+          "description": "Dr HillはUntil Dawn 2に再び登場し、Peter Stormareがその役を再演します。",
+          "detail": "彼の存在は、続編をシリーズで最も認識しやすい心理的な要素の1つと結びつけています。"
+        }
+      ]
+    },
+    "untilDawn2GameplayAndButterflyEffect": {
+      "eyebrow": "ゲームプレイ",
+      "title": "Until Dawn 2のゲームプレイとバタフライエフェクト",
+      "intro": "Until Dawn 2は、シリーズのインタラクティブなホラー形式を維持しています。会話の選択、人間関係の変化、パニック時の決断、そして小さなキャラクターの瞬間が、物語の後半で大きな生存の結末につながる可能性があります。",
+      "items": [
+        {
+          "step": 1,
+          "title": "物語の選択をする",
+          "description": "プレイヤーは、議論、発見、ホラーの場面で登場人物がどのように反応するかを選択します。",
+          "player_impact": "これらの選択は、信頼、危険、そして島が敵対的になったときに誰が最初にさらされるかを方向転換させることができます。"
+        },
+        {
+          "step": 2,
+          "title": "クルーの人間関係を管理する",
+          "description": "Dead Trueクルーの感情状態は、物語全体を通して重要です。",
+          "player_impact": "友情、恐怖、裏切り、そして名声からのプレッシャーは、どのルートが利用可能であるかを変える可能性があります。"
+        },
+        {
+          "step": 3,
+          "title": "生死を分けるプレッシャーに直面する",
+          "description": "シーンは、ゆっくりとした冷静な計画ではなく、ストレス下での決断を中心に構築されています。",
+          "player_impact": "一瞬の選択が、誰が脱出し、誰が立ち往生し、誰が後で脆弱になるかを決定する可能性があります。"
+        },
+        {
+          "step": 4,
+          "title": "バタフライエフェクトを引き起こす",
+          "description": "小さな行動が、はるかに大きな物語の結果につながる可能性があります。",
+          "player_impact": "ゲームの分岐構造は、明白な決断と微妙な相互作用の両方に注意を払うプレイヤーに報います。"
+        },
+        {
+          "step": 5,
+          "title": "Until Dawnまで誰が生き残るかを形作る",
+          "description": "中心的な目標は、できるだけ多くのキャラクターを夜を越えて生かすことです。",
+          "player_impact": "あなたのUntil Dawn 2のバージョンは、誰が生き残り、誰がグループを分裂させ、誰が真実を明らかにするかによって変化します。"
+        }
+      ]
+    },
+    "untilDawn2CharactersAndCast": {
+      "eyebrow": "キャラクター",
+      "title": "Until Dawn 2のキャラクターとキャスト",
+      "intro": "Until Dawn 2は、Dr Hillをシリーズに再登場させつつ、まったく新しい生存者グループを導入します。確認されたキャストの方向性は、Dead Trueクルーと彼らを取り巻く呪われた島の伝説に焦点を当てています。",
+      "items": [
+        {
+          "name": "Dead True ゴーストハンタークルー",
+          "role": "主要生存者グループ",
+          "status": "確認済み",
+          "description": "新しいプレイアブルなアンサンブルは、Dead Trueクルーです。彼らはキャリアを決定づけるエピソードを探すゴーストハンターチームですが、それが本物のホラーへと変わります。",
+          "key_points": [
+            "スタンドアロンの続編のためのまったく新しいキャスト",
+            "ブレイクアウトヒットを追い求める超常現象の個性",
+            "クルー内の人間関係が分岐するシーンを形成する",
+            "グループの生存はプレイヤーの決断に依存する"
+          ]
+        },
+        {
+          "name": "Dr Hill",
+          "role": "再登場キャラクター",
+          "status": "確認済み",
+          "description": "Dr HillはUntil Dawn 2に再登場し、Peter Stormareがその役を再演し、続編をシリーズの心理的アイデンティティに再接続します。",
+          "key_points": [
+            "公式発表資料に登場",
+            "Peter Stormareが再び演じる",
+            "続編をより広範なUntil Dawnのトーンに接続する",
+            "発売前にさらなる物語の背景が期待される"
+          ]
+        },
+        {
+          "name": "遠隔地の島の伝説",
+          "role": "中心的なホラー設定",
+          "status": "確認済みの物語要素",
+          "description": "島の超自然的な伝説は、それ自体がキャラクターのように機能し、キャストの恐怖、決断、そして彼らが直面する脅威を形作ります。",
+          "key_points": [
+            "放棄された熱帯の島の設定",
+            "表面下に隠された何世紀も前の秘密",
+            "悪魔的および幽霊的な現象",
+            "物語がエスカレートするにつれて伝説が活性化する"
+          ]
+        }
+      ]
+    },
+    "untilDawn2BeginnerGuide": {
+      "eyebrow": "初心者ガイド",
+      "title": "Until Dawn 2 初心者ガイド",
+      "intro": "新規プレイヤーは、Until Dawn 2 を、あらゆる会話、手がかり、緊迫した決断が重要となるサバイバルドラマとして捉えるべきです。最も安全な初回プレイは、ペースを落とし、人間関係を注意深く読み取り、あらゆる恐怖をより長い道のりの一部として扱うことから生まれます。",
+      "items": [
+        {
+          "step": 1,
+          "title": "すべての選択を意味のあるものとして扱う",
+          "description": "カジュアルな会話や小さな信頼行動でさえ、分岐するホラーゲームでは後で重要になることがあります。",
+          "player_tip": "大きな返答をする前に一瞬立ち止まり、安全性、信頼、長期的な影響について考えてください。"
+        },
+        {
+          "step": 2,
+          "title": "グループのダイナミクスを観察する",
+          "description": "Until Dawn 2 は、Dead True のクルーがお互いをどう感じているかに重きを置いています。",
+          "player_tip": "意図的に暗いルートを試しているのでない限り、不必要な亀裂を生じさせるのは避けてください。"
+        },
+        {
+          "step": 3,
+          "title": "先に進む前に探索する",
+          "description": "部屋、脇道、環境の手がかりを最初に調べると、ストーリーの文脈がより明確になることがよくあります。",
+          "player_tip": "ペースを落とすことで、次の危険な選択をする前に、より良い文脈が得られることがほとんどです。"
+        },
+        {
+          "step": 4,
+          "title": "パニックシーンでは冷静を保つ",
+          "description": "ホラーのプレッシャーは、ゲームがストレス下で素早く反応するように促すときに最も効果を発揮します。",
+          "player_tip": "恐怖の前に表示されるプロンプトに集中してください。一瞬のミスがルートを変える可能性があります。"
+        },
+        {
+          "step": 5,
+          "title": "意図を持ってリプレイする",
+          "description": "Until Dawn 2 は、複数の結果、人間関係の状態、サバイバルの組み合わせのために設計されています。",
+          "player_tip": "最初のプレイは正直にプレイし、その後、特定のチャプターをリプレイして別の分岐を試してください。"
+        }
+      ],
+      "tip_title": "Until Dawn 2 クイックヒント",
+      "quick_tips": [
+        "小さな会話の選択が、夜の後半でより大きな結果を生むことがあります。",
+        "キャラクターが孤立していると感じたら、サポートや見捨てることが重要になるシーンに注意してください。",
+        "環境の手がかりは、後のストーリーの決定をどのように解釈するかに影響を与える可能性があります。",
+        "ルートテストを開始する前に、盲目的な初回プレイが通常、最も強い緊張感をもたらします。"
+      ]
+    },
+    "untilDawn2ChoicesAndEndings": {
+      "eyebrow": "選択",
+      "title": "Until Dawn 2 の選択とエンディング",
+      "intro": "Until Dawn 2 は、分岐するサバイバル結果に焦点を当てたフランチャイズを維持しています。発売前に、ゲームについて考える最も安全な方法は、その主要な選択カテゴリ、つまりサバイバル、信頼、ルート変更、リプレイ可能な結果の連鎖を通してです。",
+      "items": [
+        {
+          "title": "選択がサバイバルにどう影響するか",
+          "summary": "誰が生き残り、誰が取り残され、誰が危険にさらされるかを追跡します。",
+          "content": "Until Dawn 2 は、プレイヤーの決断を即座の危険と遅延する結果に結びつけることで緊張感を高めます。ある決断は、その瞬間に誰かを守ることもあれば、後で静かに危険にさらすこともあります。"
+        },
+        {
+          "title": "人間関係がルートにどう影響するか",
+          "summary": "クルーのダイナミクスは、ストーリーの経路を開いたり閉じたりすることができます。",
+          "content": "Dead True チーム内の信頼、恨み、野心、恐怖、忠誠心は、後のシーンを再構築することができます。人間関係の管理は、単なる飾りではなく、サバイバルの一部です。"
+        },
+        {
+          "title": "バタフライエフェクトの意味",
+          "summary": "小さな瞬間がストーリーを大きく異なる方向に導くことがあります。",
+          "content": "セリフ、一瞬の反応、プレッシャー下での個人的な選択は、ルートの変更、キャラクターの死、または新しい発見へと響き渡ることがあります。"
+        },
+        {
+          "title": "エンディングを追跡する方法",
+          "summary": "生存者数、人間関係の状態、主要な暴露を主なカテゴリとして使用します。",
+          "content": "Until Dawn 2 の実用的なエンディングトラッカーは、どのキャラクターが生き残り、どの人間関係が維持され、どの秘密が明らかになり、島の紛争がどのように解決されるかを整理する必要があります。"
+        },
+        {
+          "title": "最高の初回プレイアプローチ",
+          "summary": "最初は自然にプレイし、その後、ルート目標を持ってリプレイします。",
+          "content": "Until Dawn 2 を体験する最もクリーンな方法は、初回プレイで本能的な選択をすることです。特定のサバイバル組み合わせや代替の感情的な結果を望む場合は、後でチャプターをリプレイしてください。"
+        }
+      ]
+    },
+    "untilDawn2DeveloperAndSeriesBackground": {
+      "eyebrow": "背景",
+      "title": "Until Dawn 2 の開発元とシリーズの背景",
+      "intro": "Until Dawn 2 は Firesprite Ltd. によって開発され、Sony Interactive Entertainment より PlayStation 5 向けに発売されます。この続編は、シリーズ独自のシネマティックホラーのアイデンティティを維持しつつ、新しいキャスト、新しい舞台、そして新たな中心となる謎へと移行します。",
+      "items": [
+        {
+          "year": "2015",
+          "title": "Until Dawn が PlayStation 4 で発売",
+          "description": "オリジナル版は、シネマティックホラー、分岐するキャラクターの運命、そしてプレイヤーごとに異なる生存の夜を作り出せるというコンセプトでシリーズを確立しました。",
+          "type": "シリーズの節目"
+        },
+        {
+          "year": "2024",
+          "title": "Until Dawn が PS5 と PC で再登場",
+          "description": "最新のリリースでは、続編の発表に先立ち、新しいハードウェア向けにオリジナルのストーリーを刷新し、より幅広い層にシリーズを再紹介する役割を果たしました。",
+          "type": "シリーズの節目"
+        },
+        {
+          "year": "2026",
+          "title": "Until Dawn 2 が発表",
+          "description": "Sony Interactive Entertainment と Firesprite は State of Play にて Until Dawn 2 を発表し、新しいキャストと Dr Hill の再登場を伴う、独立した PS5 向け続編であることを認めました。",
+          "type": "発表"
+        },
+        {
+          "year": "2027",
+          "title": "Until Dawn 2 が PS5 向けに計画中",
+          "description": "PlayStation の公式ページでは、Until Dawn 2 を PlayStation 5 向けに 2027 年の発売予定として掲載しており、ウィッシュリストへの登録も受け付けています。",
+          "type": "発売時期"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Until Dawn 2",
+    "titleHighlight": "FAQ",
+    "subtitle": "Until Dawn 2 の発売、プラットフォーム、ストーリーに関するよくある質問への回答",
+    "questions": [
+      {
+        "question": "Until Dawn 2 は、オリジナルの Until Dawn のキャストが登場する直接的な続編ですか？",
+        "answer": "Until Dawn 2 は、新しいプレイアブルキャスト、新しい島の舞台、そして新たな超常的な危機を描く、独立した続編として提供されます。"
+      },
+      {
+        "question": "Until Dawn 2 はどのプラットフォーム向けに発表されていますか？",
+        "answer": "Until Dawn 2 は PlayStation 5 向けに正式発表されています。"
+      },
+      {
+        "question": "Until Dawn 2 の発売日はいつですか？",
+        "answer": "Until Dawn 2 は現在、2027 年の発売を予定しています。"
+      },
+      {
+        "question": "Until Dawn 2 でも Butterfly Effect システムは維持されますか？",
+        "answer": "はい。Until Dawn 2 でも、人間関係に基づいた分岐やプレイヤーの決断によって形作られる生存結果など、選択と結果の構造が維持されています。"
+      },
+      {
+        "question": "Until Dawn 2 の開発元はどこですか？",
+        "answer": "Until Dawn 2 は Firesprite Ltd. によって開発され、Sony Interactive Entertainment より発売されます。"
+      },
+      {
+        "question": "今すぐ Until Dawn 2 をウィッシュリストに追加できますか？",
+        "answer": "はい。Until Dawn 2 はすでに PlayStation Store のウィッシュリストに追加可能です。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Until Dawn 2 の最新情報をチェック",
+    "description": "Firesprite がさらなるストーリーやゲームプレイの詳細を公開する間、公式発表トレーラーを視聴し、PlayStation のアップデートをフォローして、PS5 で Until Dawn 2 をウィッシュリストに追加しましょう。",
+    "joinCommunity": "Watch Until Dawn 2 Trailer",
+    "joinGame": "Wishlist Until Dawn 2 on PS5"
+  },
+  "footer": {
+    "title": "Until Dawn 2 Wiki",
+    "description": "Until Dawn 2のリリースニュース、予告編、ストーリー設定、キャラクター詳細、選択肢主導のサバイバルに関するファン作成のハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法務",
+    "discord": "PlayStation on X",
+    "twitter": "Firesprite on X",
+    "steamCommunity": "r/UntilDawn",
+    "steamStore": "公式予告編",
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Until Dawn 2 Wiki. 非公式であり、Sony Interactive EntertainmentまたはFirespriteとは提携していません。",
+    "disclaimer": "Until Dawn 2 Wikiは非公式のファン作成リソースウェブサイトです。"
+  },
+  "pages": {
+    "release": {
+      "title": "Until Dawn 2 リリース",
+      "description": "Until Dawn 2のリリース時期、発表状況、続編の確認、および2027年の発売計画に関する公式タイムラインを追跡します。",
+      "metaTitle": "Until Dawn 2 リリース - 日付、確認、発売時期",
+      "metaDescription": "Until Dawn 2のリリースに関する報道を、確認済みの2027年発売時期、続編の状況、開発の更新、および公式の発売タイムラインで追跡します。",
+      "categoryLabel": "リリース",
+      "whatIs": "リリースとは？",
+      "whatIsDescription": "このカテゴリは、Until Dawn 2のリリースに関する報道に焦点を当てています。発表された2027年の発売時期、続編の確認、開発状況、および公式情報源からのタイミング関連の更新です。",
+      "why": "リリース報道を読む理由とは？",
+      "whySteps": {
+        "step1Title": "タイムラインを確認する",
+        "step1Description": "現在発表されている発売時期と、リリース時期に関する公式メッセージがどのように変化するかを確認します。",
+        "step2Title": "続編の状況を追跡する",
+        "step2Description": "確認、開発の進捗状況、およびプラットフォーム計画や発売の期待が変化するかどうかを追跡します。",
+        "step3Title": "新しい更新に備える",
+        "step3Description": "ストーリーや予告編の分析と混同せずに、発売関連の発表の記録をきれいに保ちます。"
+      },
+      "featured": "注目と必須",
+      "all": "すべてのUntil Dawn 2 リリース記事"
+    },
+    "platforms": {
+      "title": "Until Dawn 2 プラットフォーム",
+      "description": "PS5、PC、Steam、Xbox、PS4、Switch 2、および続編に関連するシステム要件の質問に関するUntil Dawn 2のプラットフォーム報道を閲覧します。",
+      "metaTitle": "Until Dawn 2 プラットフォーム - PS5、PC、Steamなど",
+      "metaDescription": "PS5およびPC、Steam、Xbox、PS4、Switch 2、システム要件を含むすべての主要な移植に関する質問について、Until Dawn 2のプラットフォーム報道を読みます。",
+      "categoryLabel": "プラットフォーム",
+      "whatIs": "プラットフォームとは？",
+      "whatIsDescription": "これらのページは、Until Dawn 2が公式に発表されている場所、まだ未確認のシステム、およびプラットフォームの質問によってストアの利用可能性がどのように異なるかを追跡します。",
+      "why": "プラットフォームページをフォローする理由とは？",
+      "whySteps": {
+        "step1Title": "公式サポートを確認する",
+        "step1Description": "確認済みのプラットフォームをウィッシュリストの憶測から分離し、現在のPS5のステータスを明確に保ちます。",
+        "step2Title": "移植に関する質問を追跡する",
+        "step2Description": "散らばった記事ではなく、PC、Steam、Xbox、PS4、Switch 2に関する繰り返しの質問を1つのカテゴリで追跡します。",
+        "step3Title": "セットアップを計画する",
+        "step3Description": "プラットフォームページを使用して、ストアの更新、ハードウェアの詳細、および将来の互換性に関するメモを監視します。"
+      },
+      "featured": "注目と必須",
+      "all": "すべてのUntil Dawn 2 プラットフォーム記事"
+    },
+    "trailer": {
+      "title": "Until Dawn 2 トレーラー",
+      "description": "Until Dawn 2 のトレーラーを視聴・分析し、発表の節目、State of Play の報道、ティーザークリップ、そして最初の公式ゲームプレイの兆候を明らかにします。",
+      "metaTitle": "Until Dawn 2 トレーラー - 発表、ティーザー、State of Play",
+      "metaDescription": "Until Dawn 2 のトレーラー報道を、公式発表の詳細、State of Play の映像、ティーザー分析、初期のゲームプレイの要点とともに探ります。",
+      "categoryLabel": "トレーラー",
+      "whatIs": "トレーラーとは？",
+      "whatIsDescription": "このカテゴリでは、Until Dawn 2 の公式ビデオ発表、告知映像、そしてトレーラーがトーン、キャスト、ゲームプレイについて何を裏付けているかに焦点を当てた記事を収集しています。",
+      "why": "なぜトレーラー報道を読むのか？",
+      "whySteps": {
+        "step1Title": "確認された内容を見る",
+        "step1Description": "トレーラーページを使って、公式発表と噂の多い議論やファン理論を区別しましょう。",
+        "step2Title": "視覚的な詳細を捉える",
+        "step2Description": "初見では見逃しがちなキャラクターショット、島のイメージ、ゲームプレイのヒントを確認しましょう。",
+        "step3Title": "各発表の節目を追う",
+        "step3Description": "発表トレーラー、ティーザークリップ、告知イベントを1つのナビゲーションパスに整理して保管しましょう。"
+      },
+      "featured": "注目＆必須",
+      "all": "すべての Until Dawn 2 トレーラー記事"
+    },
+    "cast": {
+      "title": "Until Dawn 2 キャスト",
+      "description": "新しいアンサンブル、Dr. Hill、そして確認されたパフォーマンスの詳細に焦点を当てたキャラクター、俳優、クルーの報道を通じて、Until Dawn 2 のキャストに会いましょう。",
+      "metaTitle": "Until Dawn 2 キャスト - キャラクター、俳優、クルー",
+      "metaDescription": "Until Dawn 2 のキャスト報道を、キャラクターガイド、俳優ページ、Dr. Hill の最新情報、そして続編の背後にある確認されたアンサンブルとともに閲覧しましょう。",
+      "categoryLabel": "キャスト",
+      "whatIs": "キャストとは？",
+      "whatIsDescription": "キャストページは、Until Dawn 2 を形作る人々に焦点を当てています。これには、確認されたキャラクター、俳優、再登場する役柄、そして Dead True のクルーを取り巻く広範なアンサンブルが含まれます。",
+      "why": "なぜキャストページをフォローするのか？",
+      "whySteps": {
+        "step1Title": "アンサンブルに会う",
+        "step1Description": "新しい物語に誰が登場し、それぞれの明かされた役柄が続編の設定にどのように適合するかを把握しましょう。",
+        "step2Title": "俳優の詳細を追う",
+        "step2Description": "プラットフォームやリリース記事に混ぜることなく、パフォーマーや再登場する人物に焦点を当てたページを読みましょう。",
+        "step3Title": "グループのダイナミクスを理解する",
+        "step3Description": "キャスト報道を利用して、キャラクターの発表と物語の関係性に基づいた構造を結びつけましょう。"
+      },
+      "featured": "注目＆必須",
+      "all": "すべての Until Dawn 2 キャスト記事"
+    },
+    "story": {
+      "title": "Until Dawn 2 ストーリー",
+      "description": "島の舞台設定、超自然的な脅威、再登場するテーマ、エンディング、そして選択主導のホラー前提を中心に、Until Dawn 2 のストーリー報道を探ります。",
+      "metaTitle": "Until Dawn 2 ストーリー - 設定、選択、ホラー前提",
+      "metaDescription": "Until Dawn 2 のストーリー報道を読みましょう。島の舞台設定、超自然的な危険、エンディング、そして続編の背後にある選択主導のサバイバル設定が特徴です。",
+      "categoryLabel": "ストーリー",
+      "whatIs": "ストーリーとは？",
+      "whatIsDescription": "ストーリーページは、Until Dawn 2 を定義する公式の前提、島の背景、超自然的な要素、キャラクターの危機、そして分岐する物語のアイデアに焦点を当てています。",
+      "why": "なぜストーリー報道を読むのか？",
+      "whySteps": {
+        "step1Title": "前提を理解する",
+        "step1Description": "より深い記事のスレッドに飛び込む前に、島、クルー、ホラーの脅威の核心的な設定を把握しましょう。",
+        "step2Title": "選択主導のテーマを追跡する",
+        "step2Description": "エンディング、人間関係、サバイバルパスが続編の物語構造にどのように結びついているかを追跡しましょう。",
+        "step3Title": "伝承を整理する",
+        "step3Description": "ストーリー、モンスター、エンディング、設定の詳細を無関係なセクションに断片化するのではなく、1つのカテゴリにまとめましょう。"
+      },
+      "featured": "注目＆必須",
+      "all": "すべての Until Dawn 2 ストーリー記事"
+    },
+    "guide": {
+      "title": "Until Dawn 2 ガイド",
+      "description": "Until Dawn 2 の攻略プラン、収集アイテム、ベストエンドへのルート、生存のための選択、初見プレイの準備に関するガイド情報を掲載しています。",
+      "metaTitle": "Until Dawn 2 ガイド - 攻略、エンディング、生存のヒント",
+      "metaDescription": "Until Dawn 2 の攻略ヘルプ、収集アイテムのルート、ベストエンドの計画、ネタバレに配慮した生存アドバイスなどのガイドをご覧ください。",
+      "categoryLabel": "ガイド",
+      "whatIs": "ガイドとは？",
+      "whatIsDescription": "ガイドページは Until Dawn 2 をプレイするための実用的な記事で、攻略の優先順位、生存に関わる決断、収集アイテムの経路、周回プレイの計画などを網羅しています。",
+      "why": "なぜガイドを読むのか？",
+      "whySteps": {
+        "step1Title": "初見プレイの準備",
+        "step1Description": "選択肢、ペース配分、緊迫したシーンでの注意点など、ネタバレに配慮したアドバイスから始めましょう。",
+        "step2Title": "より良い結末を計画する",
+        "step2Description": "ガイド記事を活用して、生存ルート、ベストエンドの目標、収集アイテムの優先順位を比較しましょう。",
+        "step3Title": "目的を持って再プレイする",
+        "step3Description": "別の分岐を探索したいときは、攻略、選択肢、エンディングに特化したヘルプを参考にしてください。"
+      },
+      "featured": "注目・必須ガイド",
+      "all": "すべての Until Dawn 2 ガイド記事"
+    }
   }
 }

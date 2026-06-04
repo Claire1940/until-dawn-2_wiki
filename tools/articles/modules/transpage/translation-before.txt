@@ -1,0 +1,5 @@
+  589 src/locales/en.json
+   10 src/locales/es.json
+   10 src/locales/ja.json
+   10 src/locales/pt-BR.json
+  619 total

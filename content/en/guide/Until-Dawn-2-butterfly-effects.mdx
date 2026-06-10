@@ -1,0 +1,135 @@
+import { Map, Target, Trophy, Shield, Sparkles, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Until Dawn 2 Butterfly Effects: Survival & Choice Guide",
+  description: "Master the Until Dawn 2 butterfly effects system. Learn how your choices influence character relationships, survival paths, and the island's dark secrets.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1e1e/f59e0b?text=Butterfly+Effect+Guide",
+  date: "2026-06-10",
+  author: "Until Dawn 2 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide: Butterfly Effects">
+- **Until Dawn 2 butterfly effects** are the core mechanic where every decision creates a ripple impact.
+- **Relationship status** between the Dead True crew members directly influences specific survival story branches.
+- **Small interactions** can trigger massive consequences, potentially deciding who lives or dies on the island.
+- **Replayability** is baked into the system, allowing players to explore different horror outcomes by changing choices.
+- **Observation and caution** are vital, as the game rewards players who look for environmental clues first.
+</Callout>
+
+<Section icon={Map} title="Understanding the Butterfly Effect System">
+
+The core of the experience in Until Dawn 2 is the return of the iconic Butterfly Effect system. This mechanic dictates that even the most seemingly insignificant action can lead to catastrophic or life-saving consequences later in the narrative. Unlike traditional games with linear paths, your journey on the remote tropical island is a web of interconnected events.
+
+<CardGrid cols={3}>
+  <Card title="Immediate Impact">
+    - Dialogue choices change current moods.
+    - Quick-time events determine immediate safety.
+    - Exploration reveals hidden environmental clues.
+  </Card>
+  <Card title="Long-term Ripples">
+    - Relationship shifts affect future cooperation.
+    - Minor items collected open new paths.
+    - Past failures lead to permanent character loss.
+  </Card>
+  <Card title="Survival Outcome">
+    - Determines which crew members escape.
+    - Unlocks specific endings and secrets.
+    - Shapes the final fate of the island.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Survival Strategy">
+Always remember that in Until Dawn 2, silence can be just as impactful as action. Sometimes, choosing not to interfere in an argument or choosing not to explore a dark cave can prevent a tragedy from occurring.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Choice Consequences and Relationships">
+
+Your role as a player involves managing the dynamics of the Dead True ghost hunter crew. Relationships are not just flavor text; they are functional variables that the game engine tracks to determine which scenes are available to you.
+
+| Relationship Type | Impact on Gameplay | Consequence |
+| :--- | :--- | :--- |
+| **High Trust** | Unlocks shared survival paths | Characters assist each other more often |
+| **High Conflict** | Triggers isolation sequences | Characters may refuse to help or hide info |
+| **Romantic/Tension** | Influences specific story beats | Can lead to unique "life-or-death" choices |
+| **Neutral** | Standard path progression | No significant bonus or penalty |
+
+<Callout type="warning" title="Relationship Danger">
+Favoring one crew member too heavily can alienate others. If a character feels betrayed, they may act impulsively during high-pressure survival moments, drastically changing the Butterfly Effect outcome.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival and Replayability">
+
+The structure of the game encourages multiple playthroughs. Because the Until Dawn 2 butterfly effects create such a complex branching narrative, seeing every outcome in a single run is impossible. The game effectively tracks your "Butterfly Effect" tree, showing you which small moments led to specific survival conclusions.
+
+| Outcome Category | Description | Strategy |
+| :--- | :--- | :--- |
+| **Full Survival** | All crew members escape | Maintain high trust and avoid risky items |
+| **Partial Loss** | Some members perish | Sacrifice safety for specific clue hunting |
+| **Total Tragedy** | No one escapes | Ignore relationship cues and fail QTEs |
+| **Hidden Paths** | Unlocks secret lore | Focus on environmental clues and totems |
+
+<Steps>
+  <Step num="1" title="First Playthrough">
+    Play blind to experience the narrative organically. Your initial choices define your specific version of the horror story.
+  </Step>
+  <Step num="2" title="Clue Analysis">
+    Use the chapter select menu to identify missed clues. Understanding the island's history often provides hints for future survival.
+  </Step>
+  <Step num="3" title="Butterfly Effect Testing">
+    Replay specific chapters to flip your major decisions. Observe how the game's tone shifts based on your new approach to conflict.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mastery Tip">
+When aiming for a specific survival ending, keep a mental note of the "trigger" scenes. Often, the death of a character is tied to a choice made several chapters prior, not just the final action.
+</Callout>
+
+</Section>
+
+<Section icon={Flame} title="Essential Survival Checklist">
+
+To master the Until Dawn 2 butterfly effects, you must approach the game with a mix of caution and analytical thinking. Use this checklist during your journey to ensure you are maximizing your survival chances.
+
+<Checklist
+  id="survival-checklist"
+  title="Survival Best Practices:"
+  items={[
+    "Search every room thoroughly for hidden totems or journals.",
+    "Think twice before pushing a character into a risky situation.",
+    "Monitor relationship bars in the menu to gauge crew loyalty.",
+    "Stay calm during QTEs; panic leads to fatal mistakes.",
+    "Pay attention to Dr. Hill’s sessions as they hint at your subconscious choices."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do all Until Dawn 2 butterfly effects lead to death?",
+    answer: "No. Many effects simply change the dialogue, relationship status, or the path a character takes through the environment, adding depth to the story."
+  },
+  {
+    question: "Can I undo a choice I made?",
+    answer: "Choices are permanent within a single playthrough. You must complete the game or use chapter select to change your decisions."
+  },
+  {
+    question: "How do I know if a choice is a 'Butterfly Effect' moment?",
+    answer: "The game often provides a subtle visual cue or a notification when a major branch is triggered. Pay attention to changes in the environment or character mood."
+  }
+]} />
+
+</Section>
